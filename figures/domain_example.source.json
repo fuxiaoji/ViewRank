@@ -1,0 +1,505 @@
+{
+  "created_date": "2026-11-03",
+  "dataset": "hotpot_pool7405",
+  "method": "fine_preview",
+  "block": 0,
+  "original_questions": 1000,
+  "cutoffs": [
+    2,
+    5,
+    10
+  ],
+  "domain": [
+    [
+      1,
+      4
+    ],
+    [
+      0.25,
+      2
+    ]
+  ],
+  "alpha": 0.5,
+  "block0_status_counts": {
+    "STABLE": 2898,
+    "UNSTABLE": 99,
+    "UNKNOWN": 3
+  },
+  "eligible_verified_witnesses_k2_or_k5": 57,
+  "max_saved_symmetric_difference_size": 2,
+  "selection_pool_scope": "Saved actual verified witnesses in the completed formal Hotpot first1000 block0, primary fine_preview; not all possible parameter pairs.",
+  "block0_prefix_sha256": "f8fc2ff752eb12be37e665572b4a03750d5bd1a91aba049e016d8e4287f09745",
+  "source_question_records": "E:\\ICDE2027-research-data\\expanded-contexts-v1\\round_domain_v3\\full_hot_main_v3\\fine_preview\\questions.jsonl",
+  "block0_summary": {
+    "path": "E:\\ICDE2027-research-data\\expanded-contexts-v1\\round_domain_v3\\full_hot_main_v3\\fine_preview\\block_0_summary.json",
+    "sha256": "a2e3bf644b43a8aeb6bd5f1270cfdadd27425d56e2e82469aa7f945a9bc51e7a"
+  },
+  "frozen_execution_source": {
+    "path": "E:\\ICDE2027-research-data\\expanded-contexts-v1\\round_domain_v3\\full_hot_main_v3\\source_snapshot\\src\\policy_domain_execution.py",
+    "sha256": "f6b8c759d2c300cb8de6366b6f1321688fb88543e68ebc1a0033bcf2122c6faa"
+  },
+  "metadata": {
+    "queries": "D:\\desktop\\ICDE 2027\\results\\natural_policy_workload\\hotpot_pool7405\\queries.jsonl",
+    "docs": "D:\\desktop\\ICDE 2027\\results\\natural_policy_workload\\hotpot_pool7405\\docs.jsonl",
+    "gold": "D:\\desktop\\ICDE 2027\\results\\natural_policy_workload\\hotpot_pool7405\\evaluation.jsonl",
+    "original_public_file": "D:\\desktop\\ICDE 2027\\data\\hotpot_dev_distractor_v1.json",
+    "original_public_file_sha256_from_package_manifest": "4e9ecb5c8d3b719f624d66b60f8d56bf227f03914f5f0753d6fa1b359d7104ea"
+  },
+  "version": "v3",
+  "selection_rule": "Explicit posthoc positive illustration. Within the7 delta+1 witnesses in the stored57 question-cut table, prefer final support count2, then largest symmetric set difference, then earliest original zero-based question index, then smaller k. All7 are1-to2 and have symmetric difference2; this selects qi264/k2. Annotations do not enter execution or configuration.",
+  "eligible_unit": "question-cut saved witness; cutoff cases are not independent questions",
+  "source_57_table": {
+    "path": "E:\\ICDE2027-research-data\\expanded-contexts-v1\\round_domain_v3\\natural_instability_gold_contrast_all57_v2.json",
+    "sha256": "228a952a9ba8536c346cb23c4ee7fe113496467f49efb3c006d509603d411e2d",
+    "rows": 57,
+    "distinct_questions": 55,
+    "unchanged": true
+  },
+  "positive_subset_count": 7,
+  "positive_subset_1_to2_count": 7,
+  "positive_subset_rows": [
+    {
+      "question_index": 264,
+      "qid": "5adea9ea55429939a52fe934",
+      "k": 2,
+      "weights_first": [
+        1.0,
+        1.0
+      ],
+      "weights_second": [
+        2.5,
+        1.125
+      ],
+      "first_set": [
+        2620,
+        2622
+      ],
+      "second_set": [
+        2620,
+        2617
+      ],
+      "symmetric_difference_size": 2,
+      "support_ids": [
+        2617,
+        2620
+      ],
+      "first_retrieved_support_ids": [
+        2620
+      ],
+      "second_retrieved_support_ids": [
+        2617,
+        2620
+      ],
+      "first_support_count": 1,
+      "second_support_count": 2,
+      "support_count_difference_second_minus_first": 1,
+      "first_strict": true,
+      "second_strict": true,
+      "source_record_line_sha256": "c65eaf880ec4bd084395b9b128b7bf4b6f483077e08234659299032da229059d"
+    },
+    {
+      "question_index": 313,
+      "qid": "5a76387d554299109176e6ba",
+      "k": 5,
+      "weights_first": [
+        1.0,
+        1.0
+      ],
+      "weights_second": [
+        1.0,
+        2.0
+      ],
+      "first_set": [
+        3094,
+        3095,
+        28973,
+        22247,
+        3099
+      ],
+      "second_set": [
+        3094,
+        3095,
+        28973,
+        3099,
+        3098
+      ],
+      "symmetric_difference_size": 2,
+      "support_ids": [
+        3094,
+        3098
+      ],
+      "first_retrieved_support_ids": [
+        3094
+      ],
+      "second_retrieved_support_ids": [
+        3094,
+        3098
+      ],
+      "first_support_count": 1,
+      "second_support_count": 2,
+      "support_count_difference_second_minus_first": 1,
+      "first_strict": true,
+      "second_strict": true,
+      "source_record_line_sha256": "094bcf9414bb87cb801a11ad7d68187e30defa2ebef98f55e1461aa130c9515e"
+    },
+    {
+      "question_index": 495,
+      "qid": "5a79b7f6554299029c4b5f6f",
+      "k": 5,
+      "weights_first": [
+        1.0,
+        1.0
+      ],
+      "weights_second": [
+        1.0,
+        0.25
+      ],
+      "first_set": [
+        22247,
+        4890,
+        4892,
+        4897,
+        4888
+      ],
+      "second_set": [
+        22247,
+        4890,
+        4892,
+        4893,
+        4888
+      ],
+      "symmetric_difference_size": 2,
+      "support_ids": [
+        4890,
+        4893
+      ],
+      "first_retrieved_support_ids": [
+        4890
+      ],
+      "second_retrieved_support_ids": [
+        4890,
+        4893
+      ],
+      "first_support_count": 1,
+      "second_support_count": 2,
+      "support_count_difference_second_minus_first": 1,
+      "first_strict": true,
+      "second_strict": true,
+      "source_record_line_sha256": "93f02209e81dcc61de3f43a0a5a1cad457b9c012632ac741e5d932c681c2318a"
+    },
+    {
+      "question_index": 701,
+      "qid": "5ab207f65542993be8fa98b8",
+      "k": 2,
+      "weights_first": [
+        1.0,
+        1.0
+      ],
+      "weights_second": [
+        2.5,
+        1.125
+      ],
+      "first_set": [
+        6886,
+        22247
+      ],
+      "second_set": [
+        6886,
+        6888
+      ],
+      "symmetric_difference_size": 2,
+      "support_ids": [
+        6886,
+        6888
+      ],
+      "first_retrieved_support_ids": [
+        6886
+      ],
+      "second_retrieved_support_ids": [
+        6886,
+        6888
+      ],
+      "first_support_count": 1,
+      "second_support_count": 2,
+      "support_count_difference_second_minus_first": 1,
+      "first_strict": true,
+      "second_strict": true,
+      "source_record_line_sha256": "e3ba910879bb0da6bd3bcfa72cd4a1dc49d247aa2ca1cbb0c38a572b342d9e3f"
+    },
+    {
+      "question_index": 777,
+      "qid": "5a78c7db55429974737f7882",
+      "k": 2,
+      "weights_first": [
+        1.0,
+        1.0
+      ],
+      "weights_second": [
+        4.0,
+        0.25
+      ],
+      "first_set": [
+        7634,
+        7631
+      ],
+      "second_set": [
+        7634,
+        7640
+      ],
+      "symmetric_difference_size": 2,
+      "support_ids": [
+        7634,
+        7640
+      ],
+      "first_retrieved_support_ids": [
+        7634
+      ],
+      "second_retrieved_support_ids": [
+        7634,
+        7640
+      ],
+      "first_support_count": 1,
+      "second_support_count": 2,
+      "support_count_difference_second_minus_first": 1,
+      "first_strict": true,
+      "second_strict": true,
+      "source_record_line_sha256": "ff0d4f6788c0339c398be82cdba78aa312509a0fdde0e84595c837d73c85894d"
+    },
+    {
+      "question_index": 823,
+      "qid": "5ade811e5542992fa25da7a0",
+      "k": 5,
+      "weights_first": [
+        1.0,
+        1.0
+      ],
+      "weights_second": [
+        2.5,
+        1.125
+      ],
+      "first_set": [
+        8081,
+        22247,
+        8083,
+        8084,
+        8079
+      ],
+      "second_set": [
+        8081,
+        22247,
+        8083,
+        8084,
+        8080
+      ],
+      "symmetric_difference_size": 2,
+      "support_ids": [
+        8080,
+        8081
+      ],
+      "first_retrieved_support_ids": [
+        8081
+      ],
+      "second_retrieved_support_ids": [
+        8080,
+        8081
+      ],
+      "first_support_count": 1,
+      "second_support_count": 2,
+      "support_count_difference_second_minus_first": 1,
+      "first_strict": true,
+      "second_strict": true,
+      "source_record_line_sha256": "57b5c6fb2a11067f560c7e9773d1467e921f8b3e348e1d505e4db34d52c9d0b2"
+    },
+    {
+      "question_index": 947,
+      "qid": "5abaeda95542992ccd8e7e5d",
+      "k": 2,
+      "weights_first": [
+        1.0,
+        1.0
+      ],
+      "weights_second": [
+        2.5,
+        1.125
+      ],
+      "first_set": [
+        9255,
+        22247
+      ],
+      "second_set": [
+        9255,
+        9260
+      ],
+      "symmetric_difference_size": 2,
+      "support_ids": [
+        9255,
+        9260
+      ],
+      "first_retrieved_support_ids": [
+        9255
+      ],
+      "second_retrieved_support_ids": [
+        9255,
+        9260
+      ],
+      "first_support_count": 1,
+      "second_support_count": 2,
+      "support_count_difference_second_minus_first": 1,
+      "first_strict": true,
+      "second_strict": true,
+      "source_record_line_sha256": "0b71c0d5aabffeab68ecafca696894825ae02d71299cb2472e20313eba89eab8"
+    }
+  ],
+  "question": {
+    "original_question_index_zero_based": 264,
+    "qid": "5adea9ea55429939a52fe934",
+    "text": "What was the name of the fanzine that interviewed the Sex Pistols bassist when he was in the band \"The Flowers of Romance?\""
+  },
+  "k": 2,
+  "original_sources_in_order": [
+    {
+      "id": 2620,
+      "title": "The Flowers of Romance (band)"
+    },
+    {
+      "id": 11197,
+      "title": "Band (rock and pop)"
+    },
+    {
+      "id": 27151,
+      "title": "Sex (I'm A...)"
+    },
+    {
+      "id": 41982,
+      "title": "Bassist"
+    }
+  ],
+  "first": {
+    "weights": [
+      1.0,
+      1.0
+    ],
+    "strict": true,
+    "ranked_topk": [
+      {
+        "id": 2620,
+        "title": "The Flowers of Romance (band)",
+        "stored_approximate_score": 0.03835929273834433
+      },
+      {
+        "id": 2622,
+        "title": "Ex Pistols",
+        "stored_approximate_score": 0.02606759609210652
+      }
+    ],
+    "stored_numeric_boundary_gap_exact": "3543216044727/288230376151711744",
+    "stored_numeric_boundary_gap": 1.2293000106491231e-05,
+    "score_error_bound_exact": "1363096942404321301208130855994681821030180937279082770294757501314790929784042305933565342148811039373546161345640881354272751747053647683547354997192430759926115448845518501809694236502446317308564681194990763681626008506613692006729782768980598976120201415475675478386811945528726958536804865858118972737526243118453643948110737438132730848100479004189761538128905283631647858817201106668635218962865642228680670168599289882804627297733139151034693498390295682197941148993961042251441088111923751037187930989804849295076481804993116366015754432734671524139075901717753596737664284378032647665490863025385258718501421407876690804272934580881602168572876510338519923/17310475510056513517236441898402864119695127867925839442840525549372469519591517923880251386819776459435138082416992253813161124075094024423308567513182350897134302742198245392715340851388462831915321379738305934468411757213972971499524724044402689204066794856281458410383385598668272021680771621970798612217115879091893028514696554536719376940532753698672715461946251643656226347846099158875553452258442878872967967886027033207478085659667700697121740742510526081851064262156616874595626125221328667136497902719724340146259787629677390921792657010238786662603654813659854034709005826028796152631727464251838483287076727840603448238581105066917681992581859871706388838010060800",
+    "score_error_bound": 7.874404961391331e-11,
+    "certified_true_boundary_gap_lower_bound_exact": "106397475547326878032534981466086266109701270649207299308847410405884094914953216078543641572119117995647748281693811457763444213101373291504826833648654594808539685698443521787154711195173172894927620609472354458729469890699824738208767450651749689697406524234608994074482024792460128781330976110542760348185383977093976209471093676335792751077979265540543476306187615257383053143007803770143043438940935614549230473633026730343578608487055740855283335545415472771487486683380425299024793359972105147264967881174378413952093013395946431307696637455465103183345960331884432577055067241055346833234366377231193336237483099797532220358069857924154480469678377183698031963277/8655237755028256758618220949201432059847563933962919721420262774686234759795758961940125693409888229717569041208496126906580562037547012211654283756591175448567151371099122696357670425694231415957660689869152967234205878606986485749762362022201344602033397428140729205191692799334136010840385810985399306108557939545946514257348277268359688470266376849336357730973125821828113173923049579437776726129221439436483983943013516603739042829833850348560870371255263040925532131078308437297813062610664333568248951359862170073129893814838695460896328505119393331301827406829927017354502913014398076315863732125919241643538363920301724119290552533458840996290929935853194419005030400",
+    "certified_true_boundary_gap_lower_bound": 1.2292842618392002e-05,
+    "first_excluded": {
+      "id": 2617,
+      "title": "Sid Vicious",
+      "stored_approximate_score": 0.026055303092000028
+    },
+    "gap_recovery": "Candidate-only saved y values. Frozen execution source includes global top128 in current candidates; therefore the top k+1 rows are present. Original saved strict flag is also true.",
+    "candidate_rows_read": 1666,
+    "origin": "Stored base with independently guarded identity-target residual"
+  },
+  "second": {
+    "weights": [
+      2.5,
+      1.125
+    ],
+    "strict": true,
+    "ranked_topk": [
+      {
+        "id": 2620,
+        "title": "The Flowers of Romance (band)",
+        "stored_approximate_score": 0.038245704068229545
+      },
+      {
+        "id": 2617,
+        "title": "Sid Vicious",
+        "stored_approximate_score": 0.026121462321753948
+      }
+    ],
+    "stored_numeric_boundary_gap_exact": "15479303521893/288230376151711744",
+    "stored_numeric_boundary_gap": 5.3704622422396514e-05,
+    "score_error_bound_exact": "3782703700527201933922911320213454130795358424367682476302718730953322498850167793912016904634046541786570666465111665734734899889970416110945937577981095460554540563370876708887154364309837153623287463111092799032123950560415958687387284204277635767730323878508883441739345723445888239019929512959348853522606615270537308116161673909053179736213561067331526136126308607007697464858268176044498755491172991536538724381877966580406091638859565512660647624760248042046942752560036880488527303317681686574086984673431273728631841030111447839920533027806667140572989460258428132209981512753002051980064668300090440287983943979757144512022649732794172573999479652586273709875479119216992376667/76559353005274507363482880343426746621033446178187024833065312111880176120597389183318197015796618771663227477714777781697351340960984584245135575884352069293919042295891379306079438402668583022711827878960008650492126238719205455379904644736585552417713556996852571482760222246654051649816812409353029198417290866292154053775192127687962007966424663177359558325373965459230542745677026654664523263729976999160716676215261512746326137257809762247310518433790444462024814935054998835407538061645753079681803995550405053475733529171218508107430982513517767759931556292132257449030927648587275051117170952536813136536247343639388412452080183251737617100134517470103172080456782524656531198137755238400",
+    "score_error_bound": 4.940877308963929e-11,
+    "certified_true_boundary_gap_lower_bound_exact": "2055791790321917099328899694019031819821075933395768397851084727347299996632033879465949458312432318948663246364537443651935969304929309821319130650497662360430261256673330515554219878330282378425574029494851201983630154175098638297055339063664377922000149034104153544422341747481557927280166283146860405316046502557880237729621819661447458089238697064157316351715083934876097093525988339210086541969663829184691675035331204173810809048233551817610762224629298322905807580134553294539813276235908812634792423573509137422962459033381016555752448308916518882995461837877101339567694225154370373648704815397256338290422484805123359758826140657424847179253416643240049478108483996749061878121965733/38279676502637253681741440171713373310516723089093512416532656055940088060298694591659098507898309385831613738857388890848675670480492292122567787942176034646959521147945689653039719201334291511355913939480004325246063119359602727689952322368292776208856778498426285741380111123327025824908406204676514599208645433146077026887596063843981003983212331588679779162686982729615271372838513327332261631864988499580358338107630756373163068628904881123655259216895222231012407467527499417703769030822876539840901997775202526737866764585609254053715491256758883879965778146066128724515463824293637525558585476268406568268123671819694206226040091625868808550067258735051586040228391262328265599068877619200",
+    "certified_true_boundary_gap_lower_bound": 5.3704523604850334e-05,
+    "source_column_rounding_norm_upper_exact": "1271330437153458278124528111272391867266343425881393817786209566845918588331501512406193076330409861115635794370703776532939112986060106109043135212329298465640104185505099167977726396094588198386934753929117361596899033825793489808964363796821312031683245524549405664066463939622883604294091536282685633895827145/2070492169056678625970504694730893313065672557615496599748738435138439957877274469514280458542695238305812394990242686631332446139451297570298777831993979198801106068186671706983055438892614464242603682283230742042793727134424082064736413018204448899945426914925445121637208298387129047772641526378353861122491014564616184266752",
+    "residual_upper_exact": "3782703700527201933922911320213454130795358424367682476302718730953322498850167793912016904634046541786570666465111665734734899889970416110945937577981095460554540563370876708887154364309837153623287463111092799032123950560415958687387284204277635767730323878508883441739345723445888239019929512959348853522606615270537308116161673909053179736213561067331526136126308607007697464858268176044498755491172991536538724381877966580406091638859565512660647624760248042046942752560036880488527303317681686574086984673431273728631841030111447839920533027806667140572989460258428132209981512753002051980064668300090440287983943979757144512022649732794172573999479652586273709875479119216992376667/153118706011492900033845363542189497441854418137695902986122169533906277600187860722721587089045056492772163603069954253409568729655848034275420559374220325502029438278145100639517609118324033860208314194940510335681269545330217052164279584619030885675145911282931049132504357194203652410275204581465420822870239445119348922457231655740410363159440085755108660896223568740201949238643936298552260107017965917297924712984305214609974331686480990496706145498501483694522105492365101540970760469082142470167980747440422361941644796823050091944149279085158302321038549897899329845738903778805902687727175631422971536282184050272631768915468339793225902158286026071396379930319389158624576234198558310400",
+    "gap_recovery": "Copied saved actual-view gap/lower bound; exact Fraction subtraction raw_gap-2*score_error equals the saved lower bound.",
+    "first_excluded_id": "not saved; not inferred"
+  },
+  "membership_change": {
+    "symmetric_difference_size": 2,
+    "leaves": [
+      {
+        "id": 2622,
+        "title": "Ex Pistols"
+      }
+    ],
+    "enters": [
+      {
+        "id": 2617,
+        "title": "Sid Vicious"
+      }
+    ],
+    "common": [
+      {
+        "id": 2620,
+        "title": "The Flowers of Romance (band)"
+      }
+    ]
+  },
+  "posthoc_support_annotation": {
+    "used_by_algorithm": false,
+    "support_nodes": [
+      {
+        "id": 2617,
+        "title": "Sid Vicious"
+      },
+      {
+        "id": 2620,
+        "title": "The Flowers of Romance (band)"
+      }
+    ],
+    "first_retrieved_support_ids": [
+      2620
+    ],
+    "second_retrieved_support_ids": [
+      2617,
+      2620
+    ],
+    "first_support_count": 1,
+    "second_support_count": 2,
+    "support_count_difference_second_minus_first": 1,
+    "source": "D:\\desktop\\ICDE 2027\\results\\natural_policy_workload\\hotpot_pool7405\\evaluation.jsonl",
+    "validation": "Selected qid and support IDs agree with the previously stored all57 table and cached scorer-only evaluation record. No large original public JSON was reparsed for v3.",
+    "purpose": "Application explanation only, explicitly posthoc. This does not estimate overall retrieval or answer quality."
+  },
+  "evidence": {
+    "selected_record_line_number_one_based": 265,
+    "selected_record_line_sha256": "c65eaf880ec4bd084395b9b128b7bf4b6f483077e08234659299032da229059d",
+    "audit_npz_path": "E:\\ICDE2027-research-data\\expanded-contexts-v1\\round_domain_v3\\full_hot_main_v3\\fine_preview\\audit\\b0_q00264.npz",
+    "audit_npz_sha256": "f12b27ade267525831034f0dece5f551df5554bf154106ac331f7e23b55242d2",
+    "query_line_sha256": "d194dc32155bc3ed2dcf1d3eb73a31c9ad1b1187543e8b5207cf8579621304fb",
+    "gold_line_sha256": "d21e7345c29cadebdd238209b403f934128c7bd0ca340c0252108330fcf8dfca",
+    "selected_doc_line_sha256": {
+      "2617": "8211a1a8c466890a7920bbfdbede88c1f83a337aa90ff09292221542a7d4ea43",
+      "2620": "65645e67754cc5eb5a572adb27684a6abb83d09bb35d2bddbefa5cb3d8be654c",
+      "2622": "0ec878dab5d3583c76b7212c3c683f359b3da171f7d7848c1f52e5b1310d4e2a",
+      "11197": "0148498ed0c6d6d717ef7e41f0e0a7fe8acc399c6b41d09e49c7a68b53821d34",
+      "27151": "8f51e517e735cebdcfccd547ea5c510f666c7a08d29545d13818c51dc16ac8e2",
+      "41982": "6af26fb88fe1cab8faa5e3e8bbd594d0a9bd4d233a9b6e520b0594e536241d8e"
+    }
+  },
+  "work_scope": "Read only the stored57-case table, one completed question/witness record, one saved audit vector and selected metadata lines. No graph matrix loaded or traversed, no PPR, no all-node ranking recomputation, no large original public JSON reparse. v1/v2/all57 unchanged.",
+  "scope": "Both are actual shared-weight policies in the declared box, not independently mixed source policies. Strict true-boundary lower bounds inherit the established residual/rounding/column contracts; metadata extraction is not a new verification of those full-graph premises.",
+  "english_manuscript_paragraph": "For the question asking which fanzine interviewed the Sex Pistols bassist during his time in The Flowers of Romance, the audit identifies a concrete evidence change. At shared weights (m,w)=(1,1), top-2 contains The Flowers of Romance (band) and Ex Pistols; at (2.5,1.125), Sid Vicious replaces Ex Pistols. Both actual views have strictly certified memberships. The existing reference annotation marks The Flowers of Romance (band) and Sid Vicious as the two support passages, so this selected pair moves from one annotated support to both. The example shows how an auditor can locate policy choices that change available evidence. It is an explicitly posthoc illustration, rather than a claim that the execution operator automatically improves answer quality."
+}

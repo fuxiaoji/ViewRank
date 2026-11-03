@@ -1,0 +1,19 @@
+{
+  "version": "column-visual-revision-v2",
+  "claim": "Compressed retention improves certificate capacity at the smallest measured budget.",
+  "type": "measurement",
+  "source": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\evidence_summary_v3\\report.json tables.C_certificate_capacity",
+  "backend": "Python/Matplotlib",
+  "final_width_mm": 89,
+  "selection": "All original questions and all recorded blocks in each declared cohort.",
+  "statistics": "Three-block points are descriptive, not confidence intervals. Single-block panels have no error bars.",
+  "input_report_sha256": "6106e42605760002d62990d592a202011e86692b16190ee916352e3043a40ede",
+  "producer_script": "scripts/make_domain_column_figures.py",
+  "script_sha256": "004f059891f0d3fc171894e883c26429807176154248c9775b5a74e4dcba6df2",
+  "shared_graphics_helper_sha256": "015cc97f8ddd4be6cc9531fdaac42ced5848e6b9223a562213e416fe308f9216",
+  "blocks": [
+    0
+  ],
+  "metric": "All original questions; all three cutoffs STABLE. Actual-point witness search uniformly off.",
+  "preserved_nonmonotonicity": "Hot Sparse: 510,905,904; real cache-history effect retained."
+}

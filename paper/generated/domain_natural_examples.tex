@@ -1,0 +1,38 @@
+% Displayed certificate lower bounds round down; upper bounds round up.
+\subsection{Shared dependence on natural queries}
+The complete calibration prefixes contain three question--cutoff pairs,
+out of 600, for which the shared-parameter certificate proves stability
+while fine DensePruned source lifting remains unresolved at depth four.
+We select one case per graph by decreasing source count and then increasing
+original question index (Table~\ref{tab:natural-dependence}).
+Both methods cold-miss all atoms at the same $10^{-6}$ tolerance in these
+cases. The independently verified mixed-source policies below expose a concrete
+gap introduced by independent-source relaxation.
+
+\begin{table}[t]\centering\small
+\caption{Selected natural mechanism cases. The polynomial certificate proves
+the complete rectangle in one cell. The last column bounds a selected-minus-
+outside score gap for an independently verified mixed-source corner policy
+inside an unresolved lifting leaf.}
+\label{tab:natural-dependence}
+\begin{tabular}{lrrrr}\toprule
+Question & $r$ & $k$ & Lift cells & Gap upper bound\\\midrule
+HotpotQA 68 & 4 & 10 & 9 & $-2.041\!\times\!10^{-8}$\\
+MuSiQue 66 & 2 & 5 & 25 & $-8.568\!\times\!10^{-6}$\\
+\bottomrule\end{tabular}
+\end{table}
+
+For HotpotQA 68, a terminal cell
+$[1,7/4]\times[25/16,2]$ admits the source-specific assignments
+$(1,2),(7/4,25/16),(1,25/16),(1,25/16)$.
+Exact reconstruction of the saved small core and retained boundary rows,
+including the a posteriori allowance, proves that outside node 18429
+outranks selected node 678. For MuSiQue 66, the assignments
+$(7/4,1/4),(1,11/16)$ inside
+$[1,7/4]\times[1/4,11/16]$ make outside node 1087 outrank selected node 1091.
+Both pair comparisons use fully retained rows. Independent exact
+Leibniz/Cramer calculations reproduce the coefficients and guarded negative
+bounds. These mixed-source policies are permitted by the relaxation but
+excluded by the shared weights, whose entire rectangle is certified stable.
+The cases demonstrate a concrete source of tightening; complete-workload
+costs and coverage quantify its aggregate value.

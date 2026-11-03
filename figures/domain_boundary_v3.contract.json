@@ -1,0 +1,8 @@
+{
+  "claim": "Complete primary cost decomposition across three fixed propagation strengths.",
+  "figure": "89mm column, 600dpi PNG and live vector PDF/SVG",
+  "population": "First100 original queries per graph at each alpha; every request retained; one block.",
+  "source_sha256": "7b81e7c809de628b58bc4162a1cab5d6cf4633e1b05c4214ecefc66327ef3c96",
+  "producer_sha256": "02ed8dcf851e0b02662a7015a69ae1759089a5fbb6ca4f588519f111ba1fe5b4",
+  "statistics": "Observed complete blocks; no confidence intervals."
+}

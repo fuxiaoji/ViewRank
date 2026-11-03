@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="252.283465pt" height="158.740157pt" viewBox="0 0 252.283465 158.740157" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-03T18:51:01.318076</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 158.740157 
+L 252.283465 158.740157 
+L 252.283465 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 25.511811 59.527559 
+L 93.543307 59.527559 
+L 93.543307 127.559055 
+L 25.511811 127.559055 
+z
+" clip-path="url(#p63b88d6bc2)" style="fill: #e3f0ef; stroke: #176c74; stroke-width: 0.65; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 119.055118 48.188976 
+L 246.614173 48.188976 
+L 246.614173 90.708661 
+L 119.055118 90.708661 
+z
+" clip-path="url(#p63b88d6bc2)" style="fill: #eef1f4; stroke: #73818f; stroke-width: 0.65; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 119.055118 102.047244 
+L 246.614173 102.047244 
+L 246.614173 144.566929 
+L 119.055118 144.566929 
+z
+" clip-path="url(#p63b88d6bc2)" style="fill: #e3f0ef; stroke: #176c74; stroke-width: 0.65; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <defs>
+     <path id="m94709f81a7" d="M 0 2 
+C 0.530406 2 1.03916 1.789267 1.414214 1.414214 
+C 1.789267 1.03916 2 0.530406 2 0 
+C 2 -0.530406 1.789267 -1.03916 1.414214 -1.414214 
+C 1.03916 -1.789267 0.530406 -2 0 -2 
+C -0.530406 -2 -1.03916 -1.789267 -1.414214 -1.414214 
+C -1.789267 -1.03916 -2 -0.530406 -2 0 
+C -2 0.530406 -1.789267 1.03916 -1.414214 1.414214 
+C -1.03916 1.789267 -0.530406 2 0 2 
+z
+" style="stroke: #ffffff; stroke-width: 0.5"/>
+    </defs>
+    <g clip-path="url(#p63b88d6bc2)">
+     <use xlink:href="#m94709f81a7" x="25.511811" y="98.4027" style="fill: #176c74; stroke: #ffffff; stroke-width: 0.5"/>
+    </g>
+   </g>
+   <g id="line2d_2">
+    <g clip-path="url(#p63b88d6bc2)">
+     <use xlink:href="#m94709f81a7" x="59.527559" y="93.543307" style="fill: #176c74; stroke: #ffffff; stroke-width: 0.5"/>
+    </g>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 7.2px; font-family: 'Arial', 'DejaVu Sans', sans-serif; fill: #243440" transform="translate(5.669291 14.932671)">Which fanzine interviewed the Sex Pistols bassist</text>
+    <text style="font-size: 7.2px; font-family: 'Arial', 'DejaVu Sans', sans-serif; fill: #243440" transform="translate(5.669291 22.805702)">while he was in The Flowers of Romance?</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 6.8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #176c74" x="30.614173" y="108.669324" transform="rotate(-0 30.614173 108.669324)">P1</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 6.8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #176c74" x="64.629921" y="86.802058" transform="rotate(-0 64.629921 86.802058)">P2</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 7.2px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #243440" x="59.527559" y="47.173456" transform="rotate(-0 59.527559 47.173456)">Policy domain</text>
+   </g>
+   <g id="text_5">
+    <!-- Mention $m$ -->
+    <g style="fill: #243440" transform="translate(42.211559 146.428242)">
+     <text>
+      <tspan x="0" y="-0.984375" style="font-size: 7.2px; font-family: 'Arial'; fill: #243440">M</tspan>
+      <tspan x="6.039307" y="-0.984375" style="font-size: 7.2px; font-family: 'Arial'; fill: #243440">e</tspan>
+      <tspan x="10.071411" y="-0.984375" style="font-size: 7.2px; font-family: 'Arial'; fill: #243440">n</tspan>
+      <tspan x="14.103516" y="-0.984375" style="font-size: 7.2px; font-family: 'Arial'; fill: #243440">t</tspan>
+      <tspan x="16.117798" y="-0.984375" style="font-size: 7.2px; font-family: 'Arial'; fill: #243440">i</tspan>
+      <tspan x="17.728516" y="-0.984375" style="font-size: 7.2px; font-family: 'Arial'; fill: #243440">o</tspan>
+      <tspan x="21.76062" y="-0.984375" style="font-size: 7.2px; font-family: 'Arial'; fill: #243440">n</tspan>
+      <tspan x="25.792725" y="-0.984375" style="font-size: 7.2px; font-family: 'Arial'; fill: #243440"> </tspan>
+      <tspan x="27.807007" y="-0.984375" style="font-style: oblique; font-size: 7.2px; font-family: 'DejaVu Sans'; fill: #243440">m</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_6">
+    <!-- Weak $w$ -->
+    <g style="fill: #243440" transform="translate(9.79832 106.719307) rotate(-90)">
+     <text>
+      <tspan x="0" y="-0.984375" style="font-size: 7.2px; font-family: 'Arial'; fill: #243440">W</tspan>
+      <tspan x="6.842896" y="-0.984375" style="font-size: 7.2px; font-family: 'Arial'; fill: #243440">e</tspan>
+      <tspan x="10.875" y="-0.984375" style="font-size: 7.2px; font-family: 'Arial'; fill: #243440">a</tspan>
+      <tspan x="14.907104" y="-0.984375" style="font-size: 7.2px; font-family: 'Arial'; fill: #243440">k</tspan>
+      <tspan x="18.532104" y="-0.984375" style="font-size: 7.2px; font-family: 'Arial'; fill: #243440"> </tspan>
+      <tspan x="20.546387" y="-0.984375" style="font-style: oblique; font-size: 7.2px; font-family: 'DejaVu Sans'; fill: #243440">w</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 6.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #243440" x="25.511811" y="134.908698" transform="rotate(-0 25.511811 134.908698)">1</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 6.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #243440" x="93.543307" y="134.908698" transform="rotate(-0 93.543307 134.908698)">4</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 6.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #243440" x="20.409449" y="61.207911" transform="rotate(-0 20.409449 61.207911)">2</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 6.5px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #243440" x="20.409449" y="129.239407" transform="rotate(-0 20.409449 129.239407)">0.25</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #73818f" x="124.724409" y="58.504163" transform="rotate(-0 124.724409 58.504163)">P1: (1, 1)</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 6.9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #243440" x="124.724409" y="72.08297" transform="rotate(-0 124.724409 72.08297)">1  Flowers of Romance*</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #73818f" x="124.724409" y="84.019256" transform="rotate(-0 124.724409 84.019256)">2  Ex Pistols</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #176c74" x="124.724409" y="112.362431" transform="rotate(-0 124.724409 112.362431)">P2: (2.5, 1.125)</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 6.9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #243440" x="124.724409" y="125.941238" transform="rotate(-0 124.724409 125.941238)">1  Flowers of Romance*</text>
+   </g>
+   <g id="text_16">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #176c74" x="124.724409" y="137.877523" transform="rotate(-0 124.724409 137.877523)">2  Sid Vicious*</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p63b88d6bc2">
+   <rect x="0" y="0" width="252.283465" height="158.740157"/>
+  </clipPath>
+ </defs>
+</svg>

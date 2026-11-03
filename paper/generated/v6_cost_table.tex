@@ -1,0 +1,15 @@
+% Fixed main: variant=main,L128,tau=1e-3. All46 cells/all3 traces/minmax/latencies are in v6_summary.json/csv.
+\begin{tabular}{llrrrrrr}\toprule
+Corpus & MiB & Best control (s) & Main (s) & Reduction (\%) & Retained (MiB) & OS peak (MiB) & Status \\
+\midrule
+Hotpot & 1 & OffsetGap:49.313 & 52.810 & -7.1 & 1.00 & 308.8 & complete \\
+Hotpot & 4 & OffsetGap:49.313 & 42.326 & 14.2 & 3.81 & 313.0 & complete \\
+Hotpot & 16 & Dense $\tau=10^{-3}$:39.464 & 38.092 & 3.5 & 3.81 & 313.9 & complete \\
+MuSiQue & 1 & Dense $\tau=10^{-4}$:23.384 & 27.510 & -17.6 & 1.00 & 272.8 & complete \\
+MuSiQue & 4 & Dense $\tau=10^{-3}$:24.073 & 26.750 & -11.1 & 4.00 & 277.1 & complete \\
+MuSiQue & 16 & Dense $\tau=10^{-3}$:20.291 & 20.140 & 0.7 & 4.54 & 277.1 & complete \\
+\bottomrule\end{tabular}
+% Times are median complete charged operator traces; all certificate/residual/refinement work included, not process wall time.
+% Best baseline=min(3 gap controls,Dense tau1e-3/tau1e-4 at the same budget); incomplete pools have no final ratio.
+% Retained numeric basis is not RSS. OS peak is observed through repeat-end samples including all3 traces, before final serialization/shutdown.
+% Current private commit samples and owned numeric execution state are separately reported in JSON/CSV.

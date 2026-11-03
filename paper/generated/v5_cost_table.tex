@@ -1,0 +1,15 @@
+% Mechanical fixed-L128 main table; all 38 configurations and all repetitions are in v5_summary.json/csv.
+% Times are median of 3 complete charged traces, not process walltime. Basis and OS working set are different scopes.
+\begin{tabular}{llrrrrrr}\toprule
+Corpus & MiB & Best control (s) & Stencil (s) & Reduction (\%) & Basis (MiB) & OS peak (MiB) & Status \\
+\midrule
+Hotpot & 1 & -- & -- & -- & -- & -- & incomplete \\
+Hotpot & 4 & -- & -- & -- & -- & -- & incomplete \\
+Hotpot & 16 & -- & -- & -- & -- & -- & incomplete \\
+MuSiQue & 1 & -- & -- & -- & -- & -- & incomplete \\
+MuSiQue & 4 & -- & -- & -- & -- & -- & incomplete \\
+MuSiQue & 16 & -- & -- & -- & -- & -- & incomplete \\
+\bottomrule\end{tabular}
+% Best control is the minimum median among the complete declared comparison pool; missing controls make its cell incomplete.
+% OS peak is process-lifetime cumulative across input/backend/scratch/result buffers and three traces; not cache/RSS compression.
+% Repeat-end private commit, all trace min/max, and all-question p50/p95/mean are retained in JSON/CSV.

@@ -1,0 +1,1394 @@
+[
+  {
+    "cohort_id": "C_certificate_budget1_hot",
+    "group": "C",
+    "dataset": "hotpot_pool7405",
+    "block": 0,
+    "method": "fine_preview",
+    "execution": "paired",
+    "questions": 1000,
+    "ks": [
+      2,
+      5,
+      10
+    ],
+    "box": [
+      [
+        1.0,
+        4.0
+      ],
+      [
+        0.25,
+        2.0
+      ]
+    ],
+    "budget_bytes": 1048576,
+    "method_configuration": {
+      "name": "fine_preview",
+      "mode": "sparse",
+      "certifier": "poly",
+      "atom_tol": 1e-06,
+      "keep": 512,
+      "rank1_native": false,
+      "adaptive": false,
+      "preview_keep": 128,
+      "depth_override": null
+    },
+    "population_sha256": "8b0d8aa76c2102ac62634d409d2d04c68f7220f9368224e51fbcd65d7fcbe7d6",
+    "total_seconds": 84.51455920020817,
+    "active_query_seconds": 82.3622324002099,
+    "p95_active_query_seconds": 0.16664261000296393,
+    "charged_shared_startup_seconds": 2.1310787000002165,
+    "own_setup_seconds": 0.02124809999804711,
+    "seed_seconds": 0.03730779994293698,
+    "base_seconds": 31.020553000049404,
+    "prepare_seconds": 44.40918470005636,
+    "certify_seconds": 6.870473600065452,
+    "release_seconds": 0.024713300095754676,
+    "stable_cuts": 1660,
+    "verified_unstable_cuts": 0,
+    "unknown_cuts": 1340,
+    "total_cuts": 3000,
+    "resolved_all_cut_queries": 510,
+    "unresolved_all_cut_queries": 490,
+    "resolved_all_cut_fraction": 0.51,
+    "verified_point_witnesses": false,
+    "every_cut_stable_queries": 510,
+    "every_cut_stable_fraction": 0.51,
+    "outcome_scope": "Certificate capacity only: all cutoffs STABLE, no point witnesses.",
+    "cache": {
+      "hits": 148,
+      "misses": 2498,
+      "evictions": 2490,
+      "refinement_invalidations": 0
+    },
+    "routes": {
+      "budget_unknown": 424,
+      "sparse": 576
+    },
+    "peak_private_retained_numeric_bytes": 533213,
+    "peak_admission_reserved_numeric_bytes": 1048339,
+    "terminal_private_retained_numeric_bytes": 105319,
+    "terminal_admission_reserved_numeric_bytes": 105319,
+    "summary_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\certificate_capacity_v4\\C_certificate_budget1_hot\\summary.json",
+    "summary_sha256": "7f37d6734afc959968a2fa63fc97b1e062b0bcd407568cb2de7e09c895db1869",
+    "manifest_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\certificate_capacity_v4\\C_certificate_budget1_hot\\job_manifest.json",
+    "manifest_sha256": "71d26fde53edc740558c65f6f2adae5c10c6cea535fc9ca8f39f7e642cd51d8d",
+    "cost_population": "Every original query, including UNKNOWN. No completion-subset filtering.",
+    "memory_scope": "Private retained/admission numeric accounting. No paired OS peak is attributed to a method."
+  },
+  {
+    "cohort_id": "C_certificate_budget4_hot",
+    "group": "C",
+    "dataset": "hotpot_pool7405",
+    "block": 0,
+    "method": "fine_preview",
+    "execution": "paired",
+    "questions": 1000,
+    "ks": [
+      2,
+      5,
+      10
+    ],
+    "box": [
+      [
+        1.0,
+        4.0
+      ],
+      [
+        0.25,
+        2.0
+      ]
+    ],
+    "budget_bytes": 4194304,
+    "method_configuration": {
+      "name": "fine_preview",
+      "mode": "sparse",
+      "certifier": "poly",
+      "atom_tol": 1e-06,
+      "keep": 512,
+      "rank1_native": false,
+      "adaptive": false,
+      "preview_keep": 128,
+      "depth_override": null
+    },
+    "population_sha256": "8b0d8aa76c2102ac62634d409d2d04c68f7220f9368224e51fbcd65d7fcbe7d6",
+    "total_seconds": 145.5180602999244,
+    "active_query_seconds": 143.3164247999266,
+    "p95_active_query_seconds": 0.28867002499991923,
+    "charged_shared_startup_seconds": 2.1796736999967834,
+    "own_setup_seconds": 0.02196180000100867,
+    "seed_seconds": 0.03820879998602322,
+    "base_seconds": 35.18168230001538,
+    "prepare_seconds": 84.7892634000018,
+    "certify_seconds": 23.263965899986943,
+    "release_seconds": 0.04330439993645996,
+    "stable_cuts": 2899,
+    "verified_unstable_cuts": 0,
+    "unknown_cuts": 101,
+    "total_cuts": 3000,
+    "resolved_all_cut_queries": 905,
+    "unresolved_all_cut_queries": 95,
+    "resolved_all_cut_fraction": 0.905,
+    "verified_point_witnesses": false,
+    "every_cut_stable_queries": 905,
+    "every_cut_stable_fraction": 0.905,
+    "outcome_scope": "Certificate capacity only: all cutoffs STABLE, no point witnesses.",
+    "cache": {
+      "hits": 1461,
+      "misses": 4577,
+      "evictions": 4103,
+      "refinement_invalidations": 0
+    },
+    "routes": {
+      "sparse": 1000
+    },
+    "peak_private_retained_numeric_bytes": 3615876,
+    "peak_admission_reserved_numeric_bytes": 4194245,
+    "terminal_private_retained_numeric_bytes": 3320176,
+    "terminal_admission_reserved_numeric_bytes": 3320176,
+    "summary_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\certificate_capacity_v4\\C_certificate_budget4_hot\\summary.json",
+    "summary_sha256": "fafdd0823bf0013db8df75c1772283010298de1684224abd60f8950bcb56ba07",
+    "manifest_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\certificate_capacity_v4\\C_certificate_budget4_hot\\job_manifest.json",
+    "manifest_sha256": "51ab8c80325012d9183742465e4d3764b0eca61024be7581de96b253ac405b39",
+    "cost_population": "Every original query, including UNKNOWN. No completion-subset filtering.",
+    "memory_scope": "Private retained/admission numeric accounting. No paired OS peak is attributed to a method."
+  },
+  {
+    "cohort_id": "C_certificate_budget16_hot",
+    "group": "C",
+    "dataset": "hotpot_pool7405",
+    "block": 0,
+    "method": "fine_preview",
+    "execution": "paired",
+    "questions": 1000,
+    "ks": [
+      2,
+      5,
+      10
+    ],
+    "box": [
+      [
+        1.0,
+        4.0
+      ],
+      [
+        0.25,
+        2.0
+      ]
+    ],
+    "budget_bytes": 16777216,
+    "method_configuration": {
+      "name": "fine_preview",
+      "mode": "sparse",
+      "certifier": "poly",
+      "atom_tol": 1e-06,
+      "keep": 512,
+      "rank1_native": false,
+      "adaptive": false,
+      "preview_keep": 128,
+      "depth_override": null
+    },
+    "population_sha256": "8b0d8aa76c2102ac62634d409d2d04c68f7220f9368224e51fbcd65d7fcbe7d6",
+    "total_seconds": 128.7082788999869,
+    "active_query_seconds": 126.41999389998091,
+    "p95_active_query_seconds": 0.21683179999745333,
+    "charged_shared_startup_seconds": 2.2662334000015107,
+    "own_setup_seconds": 0.022051600004488137,
+    "seed_seconds": 0.02757509999355534,
+    "base_seconds": 33.56516360005844,
+    "prepare_seconds": 68.8615584000072,
+    "certify_seconds": 23.926748999972915,
+    "release_seconds": 0.03894779994880082,
+    "stable_cuts": 2898,
+    "verified_unstable_cuts": 0,
+    "unknown_cuts": 102,
+    "total_cuts": 3000,
+    "resolved_all_cut_queries": 904,
+    "unresolved_all_cut_queries": 96,
+    "resolved_all_cut_fraction": 0.904,
+    "verified_point_witnesses": false,
+    "every_cut_stable_queries": 904,
+    "every_cut_stable_fraction": 0.904,
+    "outcome_scope": "Certificate capacity only: all cutoffs STABLE, no point witnesses.",
+    "cache": {
+      "hits": 2276,
+      "misses": 3762,
+      "evictions": 1432,
+      "refinement_invalidations": 0
+    },
+    "routes": {
+      "sparse": 1000
+    },
+    "peak_private_retained_numeric_bytes": 16167253,
+    "peak_admission_reserved_numeric_bytes": 16777149,
+    "terminal_private_retained_numeric_bytes": 15903859,
+    "terminal_admission_reserved_numeric_bytes": 15903859,
+    "summary_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\certificate_capacity_v4\\C_certificate_budget16_hot\\summary.json",
+    "summary_sha256": "7d48bc35ae84dc98898bc0a9643069cb9f100832b010c5d43e5aaebb5d0131ea",
+    "manifest_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\certificate_capacity_v4\\C_certificate_budget16_hot\\job_manifest.json",
+    "manifest_sha256": "ac76db2afff528de51b2da1b70ec68553b7d5e72a0466f5942a2121fcabb88a8",
+    "cost_population": "Every original query, including UNKNOWN. No completion-subset filtering.",
+    "memory_scope": "Private retained/admission numeric accounting. No paired OS peak is attributed to a method."
+  },
+  {
+    "cohort_id": "C_certificate_budget1_hot",
+    "group": "C",
+    "dataset": "hotpot_pool7405",
+    "block": 0,
+    "method": "dp_preview_fine",
+    "execution": "paired",
+    "questions": 1000,
+    "ks": [
+      2,
+      5,
+      10
+    ],
+    "box": [
+      [
+        1.0,
+        4.0
+      ],
+      [
+        0.25,
+        2.0
+      ]
+    ],
+    "budget_bytes": 1048576,
+    "method_configuration": {
+      "name": "dp_preview_fine",
+      "mode": "dense_pruned",
+      "certifier": "poly",
+      "atom_tol": 1e-06,
+      "keep": 512,
+      "rank1_native": false,
+      "adaptive": false,
+      "preview_keep": 128,
+      "depth_override": null
+    },
+    "population_sha256": "8b0d8aa76c2102ac62634d409d2d04c68f7220f9368224e51fbcd65d7fcbe7d6",
+    "total_seconds": 36.470591300199885,
+    "active_query_seconds": 34.31923640019886,
+    "p95_active_query_seconds": 0.04409184000469395,
+    "charged_shared_startup_seconds": 2.1310787000002165,
+    "own_setup_seconds": 0.020276200000807876,
+    "seed_seconds": 0.039549899996927707,
+    "base_seconds": 31.045956800055137,
+    "prepare_seconds": 3.099844199972722,
+    "certify_seconds": 0.12371060012083035,
+    "release_seconds": 0.010174900053243618,
+    "stable_cuts": 0,
+    "verified_unstable_cuts": 0,
+    "unknown_cuts": 3000,
+    "total_cuts": 3000,
+    "resolved_all_cut_queries": 0,
+    "unresolved_all_cut_queries": 1000,
+    "resolved_all_cut_fraction": 0.0,
+    "verified_point_witnesses": false,
+    "every_cut_stable_queries": 0,
+    "every_cut_stable_fraction": 0.0,
+    "outcome_scope": "Certificate capacity only: all cutoffs STABLE, no point witnesses.",
+    "cache": {
+      "hits": 0,
+      "misses": 0,
+      "evictions": 0,
+      "refinement_invalidations": 0
+    },
+    "routes": {
+      "budget_unknown": 1000
+    },
+    "peak_private_retained_numeric_bytes": 52698,
+    "peak_admission_reserved_numeric_bytes": 52698,
+    "terminal_private_retained_numeric_bytes": 48604,
+    "terminal_admission_reserved_numeric_bytes": 48604,
+    "summary_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\certificate_capacity_v4\\C_certificate_budget1_hot\\summary.json",
+    "summary_sha256": "7f37d6734afc959968a2fa63fc97b1e062b0bcd407568cb2de7e09c895db1869",
+    "manifest_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\certificate_capacity_v4\\C_certificate_budget1_hot\\job_manifest.json",
+    "manifest_sha256": "71d26fde53edc740558c65f6f2adae5c10c6cea535fc9ca8f39f7e642cd51d8d",
+    "cost_population": "Every original query, including UNKNOWN. No completion-subset filtering.",
+    "memory_scope": "Private retained/admission numeric accounting. No paired OS peak is attributed to a method."
+  },
+  {
+    "cohort_id": "C_certificate_budget4_hot",
+    "group": "C",
+    "dataset": "hotpot_pool7405",
+    "block": 0,
+    "method": "dp_preview_fine",
+    "execution": "paired",
+    "questions": 1000,
+    "ks": [
+      2,
+      5,
+      10
+    ],
+    "box": [
+      [
+        1.0,
+        4.0
+      ],
+      [
+        0.25,
+        2.0
+      ]
+    ],
+    "budget_bytes": 4194304,
+    "method_configuration": {
+      "name": "dp_preview_fine",
+      "mode": "dense_pruned",
+      "certifier": "poly",
+      "atom_tol": 1e-06,
+      "keep": 512,
+      "rank1_native": false,
+      "adaptive": false,
+      "preview_keep": 128,
+      "depth_override": null
+    },
+    "population_sha256": "8b0d8aa76c2102ac62634d409d2d04c68f7220f9368224e51fbcd65d7fcbe7d6",
+    "total_seconds": 91.06388599994534,
+    "active_query_seconds": 88.86314179994952,
+    "p95_active_query_seconds": 0.18585370500077253,
+    "charged_shared_startup_seconds": 2.1796736999967834,
+    "own_setup_seconds": 0.021070499999041203,
+    "seed_seconds": 0.0405306000066048,
+    "base_seconds": 35.63623319992257,
+    "prepare_seconds": 48.481789999954344,
+    "certify_seconds": 4.692322100061574,
+    "release_seconds": 0.012265900004422292,
+    "stable_cuts": 1597,
+    "verified_unstable_cuts": 0,
+    "unknown_cuts": 1403,
+    "total_cuts": 3000,
+    "resolved_all_cut_queries": 491,
+    "unresolved_all_cut_queries": 509,
+    "resolved_all_cut_fraction": 0.491,
+    "verified_point_witnesses": false,
+    "every_cut_stable_queries": 491,
+    "every_cut_stable_fraction": 0.491,
+    "outcome_scope": "Certificate capacity only: all cutoffs STABLE, no point witnesses.",
+    "cache": {
+      "hits": 101,
+      "misses": 2473,
+      "evictions": 2466,
+      "refinement_invalidations": 0
+    },
+    "routes": {
+      "budget_unknown": 433,
+      "dense_pruned": 567
+    },
+    "peak_private_retained_numeric_bytes": 3832670,
+    "peak_admission_reserved_numeric_bytes": 4193753,
+    "terminal_private_retained_numeric_bytes": 3797263,
+    "terminal_admission_reserved_numeric_bytes": 3797263,
+    "summary_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\certificate_capacity_v4\\C_certificate_budget4_hot\\summary.json",
+    "summary_sha256": "fafdd0823bf0013db8df75c1772283010298de1684224abd60f8950bcb56ba07",
+    "manifest_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\certificate_capacity_v4\\C_certificate_budget4_hot\\job_manifest.json",
+    "manifest_sha256": "51ab8c80325012d9183742465e4d3764b0eca61024be7581de96b253ac405b39",
+    "cost_population": "Every original query, including UNKNOWN. No completion-subset filtering.",
+    "memory_scope": "Private retained/admission numeric accounting. No paired OS peak is attributed to a method."
+  },
+  {
+    "cohort_id": "C_certificate_budget16_hot",
+    "group": "C",
+    "dataset": "hotpot_pool7405",
+    "block": 0,
+    "method": "dp_preview_fine",
+    "execution": "paired",
+    "questions": 1000,
+    "ks": [
+      2,
+      5,
+      10
+    ],
+    "box": [
+      [
+        1.0,
+        4.0
+      ],
+      [
+        0.25,
+        2.0
+      ]
+    ],
+    "budget_bytes": 16777216,
+    "method_configuration": {
+      "name": "dp_preview_fine",
+      "mode": "dense_pruned",
+      "certifier": "poly",
+      "atom_tol": 1e-06,
+      "keep": 512,
+      "rank1_native": false,
+      "adaptive": false,
+      "preview_keep": 128,
+      "depth_override": null
+    },
+    "population_sha256": "8b0d8aa76c2102ac62634d409d2d04c68f7220f9368224e51fbcd65d7fcbe7d6",
+    "total_seconds": 151.99696530000438,
+    "active_query_seconds": 149.70960750000086,
+    "p95_active_query_seconds": 0.21671301500009574,
+    "charged_shared_startup_seconds": 2.2662334000015107,
+    "own_setup_seconds": 0.02112440000200877,
+    "seed_seconds": 0.03133529995830031,
+    "base_seconds": 33.771586999937426,
+    "prepare_seconds": 95.74334450008246,
+    "certify_seconds": 20.148638800008484,
+    "release_seconds": 0.01470190001418814,
+    "stable_cuts": 2899,
+    "verified_unstable_cuts": 0,
+    "unknown_cuts": 101,
+    "total_cuts": 3000,
+    "resolved_all_cut_queries": 905,
+    "unresolved_all_cut_queries": 95,
+    "resolved_all_cut_fraction": 0.905,
+    "verified_point_witnesses": false,
+    "every_cut_stable_queries": 905,
+    "every_cut_stable_fraction": 0.905,
+    "outcome_scope": "Certificate capacity only: all cutoffs STABLE, no point witnesses.",
+    "cache": {
+      "hits": 408,
+      "misses": 5630,
+      "evictions": 5600,
+      "refinement_invalidations": 0
+    },
+    "routes": {
+      "dense_pruned": 1000
+    },
+    "peak_private_retained_numeric_bytes": 16668015,
+    "peak_admission_reserved_numeric_bytes": 16776883,
+    "terminal_private_retained_numeric_bytes": 16113722,
+    "terminal_admission_reserved_numeric_bytes": 16113722,
+    "summary_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\certificate_capacity_v4\\C_certificate_budget16_hot\\summary.json",
+    "summary_sha256": "7d48bc35ae84dc98898bc0a9643069cb9f100832b010c5d43e5aaebb5d0131ea",
+    "manifest_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\certificate_capacity_v4\\C_certificate_budget16_hot\\job_manifest.json",
+    "manifest_sha256": "ac76db2afff528de51b2da1b70ec68553b7d5e72a0466f5942a2121fcabb88a8",
+    "cost_population": "Every original query, including UNKNOWN. No completion-subset filtering.",
+    "memory_scope": "Private retained/admission numeric accounting. No paired OS peak is attributed to a method."
+  },
+  {
+    "cohort_id": "C_certificate_budget1_hot",
+    "group": "C",
+    "dataset": "hotpot_pool7405",
+    "block": 0,
+    "method": "lift_sparse_fine_preview",
+    "execution": "paired",
+    "questions": 1000,
+    "ks": [
+      2,
+      5,
+      10
+    ],
+    "box": [
+      [
+        1.0,
+        4.0
+      ],
+      [
+        0.25,
+        2.0
+      ]
+    ],
+    "budget_bytes": 1048576,
+    "method_configuration": {
+      "name": "lift_sparse_fine_preview",
+      "mode": "sparse",
+      "certifier": "lifting",
+      "atom_tol": 1e-06,
+      "keep": 512,
+      "rank1_native": false,
+      "adaptive": false,
+      "preview_keep": 128,
+      "depth_override": 4
+    },
+    "population_sha256": "8b0d8aa76c2102ac62634d409d2d04c68f7220f9368224e51fbcd65d7fcbe7d6",
+    "total_seconds": 84.00476229990818,
+    "active_query_seconds": 81.86692059990673,
+    "p95_active_query_seconds": 0.16543031000328481,
+    "charged_shared_startup_seconds": 2.1310787000002165,
+    "own_setup_seconds": 0.006763000001228647,
+    "seed_seconds": 0.03552709998257342,
+    "base_seconds": 30.863696099990193,
+    "prepare_seconds": 44.86162710002827,
+    "certify_seconds": 6.090213499937818,
+    "release_seconds": 0.015856799967878032,
+    "stable_cuts": 963,
+    "verified_unstable_cuts": 0,
+    "unknown_cuts": 2037,
+    "total_cuts": 3000,
+    "resolved_all_cut_queries": 293,
+    "unresolved_all_cut_queries": 707,
+    "resolved_all_cut_fraction": 0.293,
+    "verified_point_witnesses": false,
+    "every_cut_stable_queries": 293,
+    "every_cut_stable_fraction": 0.293,
+    "outcome_scope": "Certificate capacity only: all cutoffs STABLE, no point witnesses.",
+    "cache": {
+      "hits": 146,
+      "misses": 2500,
+      "evictions": 2492,
+      "refinement_invalidations": 0
+    },
+    "routes": {
+      "budget_unknown": 424,
+      "sparse": 576
+    },
+    "peak_private_retained_numeric_bytes": 410677,
+    "peak_admission_reserved_numeric_bytes": 1048562,
+    "terminal_private_retained_numeric_bytes": 105319,
+    "terminal_admission_reserved_numeric_bytes": 105319,
+    "summary_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\certificate_capacity_v4\\C_certificate_budget1_hot\\summary.json",
+    "summary_sha256": "7f37d6734afc959968a2fa63fc97b1e062b0bcd407568cb2de7e09c895db1869",
+    "manifest_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\certificate_capacity_v4\\C_certificate_budget1_hot\\job_manifest.json",
+    "manifest_sha256": "71d26fde53edc740558c65f6f2adae5c10c6cea535fc9ca8f39f7e642cd51d8d",
+    "cost_population": "Every original query, including UNKNOWN. No completion-subset filtering.",
+    "memory_scope": "Private retained/admission numeric accounting. No paired OS peak is attributed to a method."
+  },
+  {
+    "cohort_id": "C_certificate_budget4_hot",
+    "group": "C",
+    "dataset": "hotpot_pool7405",
+    "block": 0,
+    "method": "lift_sparse_fine_preview",
+    "execution": "paired",
+    "questions": 1000,
+    "ks": [
+      2,
+      5,
+      10
+    ],
+    "box": [
+      [
+        1.0,
+        4.0
+      ],
+      [
+        0.25,
+        2.0
+      ]
+    ],
+    "budget_bytes": 4194304,
+    "method_configuration": {
+      "name": "lift_sparse_fine_preview",
+      "mode": "sparse",
+      "certifier": "lifting",
+      "atom_tol": 1e-06,
+      "keep": 512,
+      "rank1_native": false,
+      "adaptive": false,
+      "preview_keep": 128,
+      "depth_override": 4
+    },
+    "population_sha256": "8b0d8aa76c2102ac62634d409d2d04c68f7220f9368224e51fbcd65d7fcbe7d6",
+    "total_seconds": 219.06869370014465,
+    "active_query_seconds": 216.88179420014785,
+    "p95_active_query_seconds": 0.405861055001696,
+    "charged_shared_startup_seconds": 2.1796736999967834,
+    "own_setup_seconds": 0.007225800000014715,
+    "seed_seconds": 0.038910499977646396,
+    "base_seconds": 35.70624580001095,
+    "prepare_seconds": 94.58252170007836,
+    "certify_seconds": 86.53403390001768,
+    "release_seconds": 0.020082300063222647,
+    "stable_cuts": 2892,
+    "verified_unstable_cuts": 0,
+    "unknown_cuts": 108,
+    "total_cuts": 3000,
+    "resolved_all_cut_queries": 900,
+    "unresolved_all_cut_queries": 100,
+    "resolved_all_cut_fraction": 0.9,
+    "verified_point_witnesses": false,
+    "every_cut_stable_queries": 900,
+    "every_cut_stable_fraction": 0.9,
+    "outcome_scope": "Certificate capacity only: all cutoffs STABLE, no point witnesses.",
+    "cache": {
+      "hits": 793,
+      "misses": 5245,
+      "evictions": 5135,
+      "refinement_invalidations": 0
+    },
+    "routes": {
+      "sparse": 1000
+    },
+    "peak_private_retained_numeric_bytes": 1364367,
+    "peak_admission_reserved_numeric_bytes": 4194292,
+    "terminal_private_retained_numeric_bytes": 806848,
+    "terminal_admission_reserved_numeric_bytes": 806848,
+    "summary_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\certificate_capacity_v4\\C_certificate_budget4_hot\\summary.json",
+    "summary_sha256": "fafdd0823bf0013db8df75c1772283010298de1684224abd60f8950bcb56ba07",
+    "manifest_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\certificate_capacity_v4\\C_certificate_budget4_hot\\job_manifest.json",
+    "manifest_sha256": "51ab8c80325012d9183742465e4d3764b0eca61024be7581de96b253ac405b39",
+    "cost_population": "Every original query, including UNKNOWN. No completion-subset filtering.",
+    "memory_scope": "Private retained/admission numeric accounting. No paired OS peak is attributed to a method."
+  },
+  {
+    "cohort_id": "C_certificate_budget16_hot",
+    "group": "C",
+    "dataset": "hotpot_pool7405",
+    "block": 0,
+    "method": "lift_sparse_fine_preview",
+    "execution": "paired",
+    "questions": 1000,
+    "ks": [
+      2,
+      5,
+      10
+    ],
+    "box": [
+      [
+        1.0,
+        4.0
+      ],
+      [
+        0.25,
+        2.0
+      ]
+    ],
+    "budget_bytes": 16777216,
+    "method_configuration": {
+      "name": "lift_sparse_fine_preview",
+      "mode": "sparse",
+      "certifier": "lifting",
+      "atom_tol": 1e-06,
+      "keep": 512,
+      "rank1_native": false,
+      "adaptive": false,
+      "preview_keep": 128,
+      "depth_override": 4
+    },
+    "population_sha256": "8b0d8aa76c2102ac62634d409d2d04c68f7220f9368224e51fbcd65d7fcbe7d6",
+    "total_seconds": 197.9547239998683,
+    "active_query_seconds": 195.68118979986684,
+    "p95_active_query_seconds": 0.3172634150034353,
+    "charged_shared_startup_seconds": 2.2662334000015107,
+    "own_setup_seconds": 0.007300799999939045,
+    "seed_seconds": 0.028439800022169948,
+    "base_seconds": 33.79556409998622,
+    "prepare_seconds": 69.69718349997856,
+    "certify_seconds": 92.14018919993032,
+    "release_seconds": 0.019813199949567206,
+    "stable_cuts": 2892,
+    "verified_unstable_cuts": 0,
+    "unknown_cuts": 108,
+    "total_cuts": 3000,
+    "resolved_all_cut_queries": 900,
+    "unresolved_all_cut_queries": 100,
+    "resolved_all_cut_fraction": 0.9,
+    "verified_point_witnesses": false,
+    "every_cut_stable_queries": 900,
+    "every_cut_stable_fraction": 0.9,
+    "outcome_scope": "Certificate capacity only: all cutoffs STABLE, no point witnesses.",
+    "cache": {
+      "hits": 2224,
+      "misses": 3814,
+      "evictions": 1854,
+      "refinement_invalidations": 0
+    },
+    "routes": {
+      "sparse": 1000
+    },
+    "peak_private_retained_numeric_bytes": 13797702,
+    "peak_admission_reserved_numeric_bytes": 16777213,
+    "terminal_private_retained_numeric_bytes": 13391027,
+    "terminal_admission_reserved_numeric_bytes": 13391027,
+    "summary_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\certificate_capacity_v4\\C_certificate_budget16_hot\\summary.json",
+    "summary_sha256": "7d48bc35ae84dc98898bc0a9643069cb9f100832b010c5d43e5aaebb5d0131ea",
+    "manifest_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\certificate_capacity_v4\\C_certificate_budget16_hot\\job_manifest.json",
+    "manifest_sha256": "ac76db2afff528de51b2da1b70ec68553b7d5e72a0466f5942a2121fcabb88a8",
+    "cost_population": "Every original query, including UNKNOWN. No completion-subset filtering.",
+    "memory_scope": "Private retained/admission numeric accounting. No paired OS peak is attributed to a method."
+  },
+  {
+    "cohort_id": "C_certificate_budget1_mu",
+    "group": "C",
+    "dataset": "musique_pool2417",
+    "block": 0,
+    "method": "fine_preview",
+    "execution": "paired",
+    "questions": 2417,
+    "ks": [
+      2,
+      5,
+      10
+    ],
+    "box": [
+      [
+        1.0,
+        4.0
+      ],
+      [
+        0.25,
+        2.0
+      ]
+    ],
+    "budget_bytes": 1048576,
+    "method_configuration": {
+      "name": "fine_preview",
+      "mode": "sparse",
+      "certifier": "poly",
+      "atom_tol": 1e-06,
+      "keep": 512,
+      "rank1_native": false,
+      "adaptive": false,
+      "preview_keep": 128,
+      "depth_override": null
+    },
+    "population_sha256": "eeee05f4832a2c0e2fe6528ba916f69b384b945fe6caeeabd511d788ceb72b09",
+    "total_seconds": 66.09103230017718,
+    "active_query_seconds": 65.36008440017758,
+    "p95_active_query_seconds": 0.06466683999897213,
+    "charged_shared_startup_seconds": 0.7053574999990815,
+    "own_setup_seconds": 0.02559040000051027,
+    "seed_seconds": 0.0351127002031717,
+    "base_seconds": 19.381498999930045,
+    "prepare_seconds": 26.396870700020372,
+    "certify_seconds": 19.466446000027645,
+    "release_seconds": 0.08015599999635015,
+    "stable_cuts": 5155,
+    "verified_unstable_cuts": 0,
+    "unknown_cuts": 2096,
+    "total_cuts": 7251,
+    "resolved_all_cut_queries": 1526,
+    "unresolved_all_cut_queries": 891,
+    "resolved_all_cut_fraction": 0.6313611915597849,
+    "verified_point_witnesses": false,
+    "every_cut_stable_queries": 1526,
+    "every_cut_stable_fraction": 0.6313611915597849,
+    "outcome_scope": "Certificate capacity only: all cutoffs STABLE, no point witnesses.",
+    "cache": {
+      "hits": 1938,
+      "misses": 4568,
+      "evictions": 4562,
+      "refinement_invalidations": 0
+    },
+    "routes": {
+      "budget_unknown": 572,
+      "sparse": 1845
+    },
+    "peak_private_retained_numeric_bytes": 698000,
+    "peak_admission_reserved_numeric_bytes": 1048226,
+    "terminal_private_retained_numeric_bytes": 94673,
+    "terminal_admission_reserved_numeric_bytes": 94673,
+    "summary_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\certificate_capacity_v4\\C_certificate_budget1_mu\\summary.json",
+    "summary_sha256": "c82f5d9ecb9e5fb98592241c9bfd6fd4312dab0a7dc338cc29f7ad4cf4814157",
+    "manifest_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\certificate_capacity_v4\\C_certificate_budget1_mu\\job_manifest.json",
+    "manifest_sha256": "acaa37c80974fd57660a6f7731a9173611def3a6fad36d413e8b91d23ad4bee0",
+    "cost_population": "Every original query, including UNKNOWN. No completion-subset filtering.",
+    "memory_scope": "Private retained/admission numeric accounting. No paired OS peak is attributed to a method."
+  },
+  {
+    "cohort_id": "C_certificate_budget4_mu",
+    "group": "C",
+    "dataset": "musique_pool2417",
+    "block": 0,
+    "method": "fine_preview",
+    "execution": "paired",
+    "questions": 2417,
+    "ks": [
+      2,
+      5,
+      10
+    ],
+    "box": [
+      [
+        1.0,
+        4.0
+      ],
+      [
+        0.25,
+        2.0
+      ]
+    ],
+    "budget_bytes": 4194304,
+    "method_configuration": {
+      "name": "fine_preview",
+      "mode": "sparse",
+      "certifier": "poly",
+      "atom_tol": 1e-06,
+      "keep": 512,
+      "rank1_native": false,
+      "adaptive": false,
+      "preview_keep": 128,
+      "depth_override": null
+    },
+    "population_sha256": "eeee05f4832a2c0e2fe6528ba916f69b384b945fe6caeeabd511d788ceb72b09",
+    "total_seconds": 98.750244800176,
+    "active_query_seconds": 98.06411920017854,
+    "p95_active_query_seconds": 0.114490340007614,
+    "charged_shared_startup_seconds": 0.6631196999987878,
+    "own_setup_seconds": 0.023005899998679524,
+    "seed_seconds": 0.03203870005745557,
+    "base_seconds": 19.604684499980067,
+    "prepare_seconds": 28.76007610004308,
+    "certify_seconds": 49.57529110003452,
+    "release_seconds": 0.0920288000634173,
+    "stable_cuts": 6776,
+    "verified_unstable_cuts": 0,
+    "unknown_cuts": 475,
+    "total_cuts": 7251,
+    "resolved_all_cut_queries": 2014,
+    "unresolved_all_cut_queries": 403,
+    "resolved_all_cut_fraction": 0.8332643773272652,
+    "verified_point_witnesses": false,
+    "every_cut_stable_queries": 2014,
+    "every_cut_stable_fraction": 0.8332643773272652,
+    "outcome_scope": "Certificate capacity only: all cutoffs STABLE, no point witnesses.",
+    "cache": {
+      "hits": 5912,
+      "misses": 5170,
+      "evictions": 4718,
+      "refinement_invalidations": 0
+    },
+    "routes": {
+      "sparse": 2417
+    },
+    "peak_private_retained_numeric_bytes": 3814015,
+    "peak_admission_reserved_numeric_bytes": 4194199,
+    "terminal_private_retained_numeric_bytes": 3275643,
+    "terminal_admission_reserved_numeric_bytes": 3275643,
+    "summary_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\certificate_capacity_v4\\C_certificate_budget4_mu\\summary.json",
+    "summary_sha256": "8d53a8aec724b734ec326a78f6907d3bc1482b5f35ac706851f6989e49436edf",
+    "manifest_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\certificate_capacity_v4\\C_certificate_budget4_mu\\job_manifest.json",
+    "manifest_sha256": "a087a6c502c73755af18de68fc2916790e6e0b125b61d5d1180d5542d904b1d7",
+    "cost_population": "Every original query, including UNKNOWN. No completion-subset filtering.",
+    "memory_scope": "Private retained/admission numeric accounting. No paired OS peak is attributed to a method."
+  },
+  {
+    "cohort_id": "C_certificate_budget16_mu",
+    "group": "C",
+    "dataset": "musique_pool2417",
+    "block": 0,
+    "method": "fine_preview",
+    "execution": "paired",
+    "questions": 2417,
+    "ks": [
+      2,
+      5,
+      10
+    ],
+    "box": [
+      [
+        1.0,
+        4.0
+      ],
+      [
+        0.25,
+        2.0
+      ]
+    ],
+    "budget_bytes": 16777216,
+    "method_configuration": {
+      "name": "fine_preview",
+      "mode": "sparse",
+      "certifier": "poly",
+      "atom_tol": 1e-06,
+      "keep": 512,
+      "rank1_native": false,
+      "adaptive": false,
+      "preview_keep": 128,
+      "depth_override": null
+    },
+    "population_sha256": "eeee05f4832a2c0e2fe6528ba916f69b384b945fe6caeeabd511d788ceb72b09",
+    "total_seconds": 94.20054169986543,
+    "active_query_seconds": 93.48525689986855,
+    "p95_active_query_seconds": 0.11595723999635067,
+    "charged_shared_startup_seconds": 0.6913491000013892,
+    "own_setup_seconds": 0.023935699995490722,
+    "seed_seconds": 0.027102899992314633,
+    "base_seconds": 18.50509929994587,
+    "prepare_seconds": 25.382270599999174,
+    "certify_seconds": 49.48347379975894,
+    "release_seconds": 0.08731030017224839,
+    "stable_cuts": 6776,
+    "verified_unstable_cuts": 0,
+    "unknown_cuts": 475,
+    "total_cuts": 7251,
+    "resolved_all_cut_queries": 2014,
+    "unresolved_all_cut_queries": 403,
+    "resolved_all_cut_fraction": 0.8332643773272652,
+    "verified_point_witnesses": false,
+    "every_cut_stable_queries": 2014,
+    "every_cut_stable_fraction": 0.8332643773272652,
+    "outcome_scope": "Certificate capacity only: all cutoffs STABLE, no point witnesses.",
+    "cache": {
+      "hits": 6492,
+      "misses": 4590,
+      "evictions": 2363,
+      "refinement_invalidations": 0
+    },
+    "routes": {
+      "sparse": 2417
+    },
+    "peak_private_retained_numeric_bytes": 16324380,
+    "peak_admission_reserved_numeric_bytes": 16777216,
+    "terminal_private_retained_numeric_bytes": 15853410,
+    "terminal_admission_reserved_numeric_bytes": 15853410,
+    "summary_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\certificate_capacity_v4\\C_certificate_budget16_mu\\summary.json",
+    "summary_sha256": "1e5ef4904f50d276b2ace5118085a54691bd4442715fadc2519b0362f9267303",
+    "manifest_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\certificate_capacity_v4\\C_certificate_budget16_mu\\job_manifest.json",
+    "manifest_sha256": "985f893a5dd880a426e095254ff22d1f6de4e45f63148b274d3a6f51973f565f",
+    "cost_population": "Every original query, including UNKNOWN. No completion-subset filtering.",
+    "memory_scope": "Private retained/admission numeric accounting. No paired OS peak is attributed to a method."
+  },
+  {
+    "cohort_id": "C_certificate_budget1_mu",
+    "group": "C",
+    "dataset": "musique_pool2417",
+    "block": 0,
+    "method": "dp_preview_fine",
+    "execution": "paired",
+    "questions": 2417,
+    "ks": [
+      2,
+      5,
+      10
+    ],
+    "box": [
+      [
+        1.0,
+        4.0
+      ],
+      [
+        0.25,
+        2.0
+      ]
+    ],
+    "budget_bytes": 1048576,
+    "method_configuration": {
+      "name": "dp_preview_fine",
+      "mode": "dense_pruned",
+      "certifier": "poly",
+      "atom_tol": 1e-06,
+      "keep": 512,
+      "rank1_native": false,
+      "adaptive": false,
+      "preview_keep": 128,
+      "depth_override": null
+    },
+    "population_sha256": "eeee05f4832a2c0e2fe6528ba916f69b384b945fe6caeeabd511d788ceb72b09",
+    "total_seconds": 54.722383100037405,
+    "active_query_seconds": 53.983740800038504,
+    "p95_active_query_seconds": 0.05453236000103061,
+    "charged_shared_startup_seconds": 0.7053574999990815,
+    "own_setup_seconds": 0.03328479999981937,
+    "seed_seconds": 0.041313100013212534,
+    "base_seconds": 19.61644610004805,
+    "prepare_seconds": 24.305189599916048,
+    "certify_seconds": 9.993429800022568,
+    "release_seconds": 0.027362200038623996,
+    "stable_cuts": 4359,
+    "verified_unstable_cuts": 0,
+    "unknown_cuts": 2892,
+    "total_cuts": 7251,
+    "resolved_all_cut_queries": 1294,
+    "unresolved_all_cut_queries": 1123,
+    "resolved_all_cut_fraction": 0.5353744311129499,
+    "verified_point_witnesses": false,
+    "every_cut_stable_queries": 1294,
+    "every_cut_stable_fraction": 0.5353744311129499,
+    "outcome_scope": "Certificate capacity only: all cutoffs STABLE, no point witnesses.",
+    "cache": {
+      "hits": 585,
+      "misses": 4135,
+      "evictions": 4131,
+      "refinement_invalidations": 0
+    },
+    "routes": {
+      "budget_unknown": 858,
+      "dense_pruned": 1559
+    },
+    "peak_private_retained_numeric_bytes": 923531,
+    "peak_admission_reserved_numeric_bytes": 1048476,
+    "terminal_private_retained_numeric_bytes": 735682,
+    "terminal_admission_reserved_numeric_bytes": 735682,
+    "summary_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\certificate_capacity_v4\\C_certificate_budget1_mu\\summary.json",
+    "summary_sha256": "c82f5d9ecb9e5fb98592241c9bfd6fd4312dab0a7dc338cc29f7ad4cf4814157",
+    "manifest_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\certificate_capacity_v4\\C_certificate_budget1_mu\\job_manifest.json",
+    "manifest_sha256": "acaa37c80974fd57660a6f7731a9173611def3a6fad36d413e8b91d23ad4bee0",
+    "cost_population": "Every original query, including UNKNOWN. No completion-subset filtering.",
+    "memory_scope": "Private retained/admission numeric accounting. No paired OS peak is attributed to a method."
+  },
+  {
+    "cohort_id": "C_certificate_budget4_mu",
+    "group": "C",
+    "dataset": "musique_pool2417",
+    "block": 0,
+    "method": "dp_preview_fine",
+    "execution": "paired",
+    "questions": 2417,
+    "ks": [
+      2,
+      5,
+      10
+    ],
+    "box": [
+      [
+        1.0,
+        4.0
+      ],
+      [
+        0.25,
+        2.0
+      ]
+    ],
+    "budget_bytes": 4194304,
+    "method_configuration": {
+      "name": "dp_preview_fine",
+      "mode": "dense_pruned",
+      "certifier": "poly",
+      "atom_tol": 1e-06,
+      "keep": 512,
+      "rank1_native": false,
+      "adaptive": false,
+      "preview_keep": 128,
+      "depth_override": null
+    },
+    "population_sha256": "eeee05f4832a2c0e2fe6528ba916f69b384b945fe6caeeabd511d788ceb72b09",
+    "total_seconds": 96.00910569998086,
+    "active_query_seconds": 95.31510629997865,
+    "p95_active_query_seconds": 0.09198323999953567,
+    "charged_shared_startup_seconds": 0.6631196999987878,
+    "own_setup_seconds": 0.03087970000342466,
+    "seed_seconds": 0.03653069991560187,
+    "base_seconds": 19.65959980003754,
+    "prepare_seconds": 36.357157600010396,
+    "certify_seconds": 39.22857060001843,
+    "release_seconds": 0.033247599996684585,
+    "stable_cuts": 6777,
+    "verified_unstable_cuts": 0,
+    "unknown_cuts": 474,
+    "total_cuts": 7251,
+    "resolved_all_cut_queries": 2014,
+    "unresolved_all_cut_queries": 403,
+    "resolved_all_cut_fraction": 0.8332643773272652,
+    "verified_point_witnesses": false,
+    "every_cut_stable_queries": 2014,
+    "every_cut_stable_fraction": 0.8332643773272652,
+    "outcome_scope": "Certificate capacity only: all cutoffs STABLE, no point witnesses.",
+    "cache": {
+      "hits": 4248,
+      "misses": 6834,
+      "evictions": 6811,
+      "refinement_invalidations": 0
+    },
+    "routes": {
+      "dense_pruned": 2417
+    },
+    "peak_private_retained_numeric_bytes": 4176056,
+    "peak_admission_reserved_numeric_bytes": 4194290,
+    "terminal_private_retained_numeric_bytes": 3989969,
+    "terminal_admission_reserved_numeric_bytes": 3989969,
+    "summary_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\certificate_capacity_v4\\C_certificate_budget4_mu\\summary.json",
+    "summary_sha256": "8d53a8aec724b734ec326a78f6907d3bc1482b5f35ac706851f6989e49436edf",
+    "manifest_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\certificate_capacity_v4\\C_certificate_budget4_mu\\job_manifest.json",
+    "manifest_sha256": "a087a6c502c73755af18de68fc2916790e6e0b125b61d5d1180d5542d904b1d7",
+    "cost_population": "Every original query, including UNKNOWN. No completion-subset filtering.",
+    "memory_scope": "Private retained/admission numeric accounting. No paired OS peak is attributed to a method."
+  },
+  {
+    "cohort_id": "C_certificate_budget16_mu",
+    "group": "C",
+    "dataset": "musique_pool2417",
+    "block": 0,
+    "method": "dp_preview_fine",
+    "execution": "paired",
+    "questions": 2417,
+    "ks": [
+      2,
+      5,
+      10
+    ],
+    "box": [
+      [
+        1.0,
+        4.0
+      ],
+      [
+        0.25,
+        2.0
+      ]
+    ],
+    "budget_bytes": 16777216,
+    "method_configuration": {
+      "name": "dp_preview_fine",
+      "mode": "dense_pruned",
+      "certifier": "poly",
+      "atom_tol": 1e-06,
+      "keep": 512,
+      "rank1_native": false,
+      "adaptive": false,
+      "preview_keep": 128,
+      "depth_override": null
+    },
+    "population_sha256": "eeee05f4832a2c0e2fe6528ba916f69b384b945fe6caeeabd511d788ceb72b09",
+    "total_seconds": 89.87781379916123,
+    "active_query_seconds": 89.15650859916786,
+    "p95_active_query_seconds": 0.09201881999179014,
+    "charged_shared_startup_seconds": 0.6913491000013892,
+    "own_setup_seconds": 0.02995609999197768,
+    "seed_seconds": 0.030742099916096777,
+    "base_seconds": 18.501967799857084,
+    "prepare_seconds": 30.31624659975205,
+    "certify_seconds": 40.2735179999363,
+    "release_seconds": 0.0340340997063322,
+    "stable_cuts": 6777,
+    "verified_unstable_cuts": 0,
+    "unknown_cuts": 474,
+    "total_cuts": 7251,
+    "resolved_all_cut_queries": 2014,
+    "unresolved_all_cut_queries": 403,
+    "resolved_all_cut_fraction": 0.8332643773272652,
+    "verified_point_witnesses": false,
+    "every_cut_stable_queries": 2014,
+    "every_cut_stable_fraction": 0.8332643773272652,
+    "outcome_scope": "Certificate capacity only: all cutoffs STABLE, no point witnesses.",
+    "cache": {
+      "hits": 5182,
+      "misses": 5900,
+      "evictions": 5803,
+      "refinement_invalidations": 0
+    },
+    "routes": {
+      "dense_pruned": 2417
+    },
+    "peak_private_retained_numeric_bytes": 16686553,
+    "peak_admission_reserved_numeric_bytes": 16777142,
+    "terminal_private_retained_numeric_bytes": 16495042,
+    "terminal_admission_reserved_numeric_bytes": 16495042,
+    "summary_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\certificate_capacity_v4\\C_certificate_budget16_mu\\summary.json",
+    "summary_sha256": "1e5ef4904f50d276b2ace5118085a54691bd4442715fadc2519b0362f9267303",
+    "manifest_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\certificate_capacity_v4\\C_certificate_budget16_mu\\job_manifest.json",
+    "manifest_sha256": "985f893a5dd880a426e095254ff22d1f6de4e45f63148b274d3a6f51973f565f",
+    "cost_population": "Every original query, including UNKNOWN. No completion-subset filtering.",
+    "memory_scope": "Private retained/admission numeric accounting. No paired OS peak is attributed to a method."
+  },
+  {
+    "cohort_id": "C_certificate_budget1_mu",
+    "group": "C",
+    "dataset": "musique_pool2417",
+    "block": 0,
+    "method": "lift_sparse_fine_preview",
+    "execution": "paired",
+    "questions": 2417,
+    "ks": [
+      2,
+      5,
+      10
+    ],
+    "box": [
+      [
+        1.0,
+        4.0
+      ],
+      [
+        0.25,
+        2.0
+      ]
+    ],
+    "budget_bytes": 1048576,
+    "method_configuration": {
+      "name": "lift_sparse_fine_preview",
+      "mode": "sparse",
+      "certifier": "lifting",
+      "atom_tol": 1e-06,
+      "keep": 512,
+      "rank1_native": false,
+      "adaptive": false,
+      "preview_keep": 128,
+      "depth_override": 4
+    },
+    "population_sha256": "eeee05f4832a2c0e2fe6528ba916f69b384b945fe6caeeabd511d788ceb72b09",
+    "total_seconds": 70.97766709997086,
+    "active_query_seconds": 70.26324339997154,
+    "p95_active_query_seconds": 0.08578366000001544,
+    "charged_shared_startup_seconds": 0.7053574999990815,
+    "own_setup_seconds": 0.009066200000233948,
+    "seed_seconds": 0.03693220004424802,
+    "base_seconds": 19.48629609996351,
+    "prepare_seconds": 26.658010499904776,
+    "certify_seconds": 24.04768580005475,
+    "release_seconds": 0.034318800004257355,
+    "stable_cuts": 4383,
+    "verified_unstable_cuts": 0,
+    "unknown_cuts": 2868,
+    "total_cuts": 7251,
+    "resolved_all_cut_queries": 1296,
+    "unresolved_all_cut_queries": 1121,
+    "resolved_all_cut_fraction": 0.5362019031857674,
+    "verified_point_witnesses": false,
+    "every_cut_stable_queries": 1296,
+    "every_cut_stable_fraction": 0.5362019031857674,
+    "outcome_scope": "Certificate capacity only: all cutoffs STABLE, no point witnesses.",
+    "cache": {
+      "hits": 1932,
+      "misses": 4574,
+      "evictions": 4568,
+      "refinement_invalidations": 0
+    },
+    "routes": {
+      "budget_unknown": 572,
+      "sparse": 1845
+    },
+    "peak_private_retained_numeric_bytes": 642488,
+    "peak_admission_reserved_numeric_bytes": 1048547,
+    "terminal_private_retained_numeric_bytes": 94673,
+    "terminal_admission_reserved_numeric_bytes": 94673,
+    "summary_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\certificate_capacity_v4\\C_certificate_budget1_mu\\summary.json",
+    "summary_sha256": "c82f5d9ecb9e5fb98592241c9bfd6fd4312dab0a7dc338cc29f7ad4cf4814157",
+    "manifest_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\certificate_capacity_v4\\C_certificate_budget1_mu\\job_manifest.json",
+    "manifest_sha256": "acaa37c80974fd57660a6f7731a9173611def3a6fad36d413e8b91d23ad4bee0",
+    "cost_population": "Every original query, including UNKNOWN. No completion-subset filtering.",
+    "memory_scope": "Private retained/admission numeric accounting. No paired OS peak is attributed to a method."
+  },
+  {
+    "cohort_id": "C_certificate_budget4_mu",
+    "group": "C",
+    "dataset": "musique_pool2417",
+    "block": 0,
+    "method": "lift_sparse_fine_preview",
+    "execution": "paired",
+    "questions": 2417,
+    "ks": [
+      2,
+      5,
+      10
+    ],
+    "box": [
+      [
+        1.0,
+        4.0
+      ],
+      [
+        0.25,
+        2.0
+      ]
+    ],
+    "budget_bytes": 4194304,
+    "method_configuration": {
+      "name": "lift_sparse_fine_preview",
+      "mode": "sparse",
+      "certifier": "lifting",
+      "atom_tol": 1e-06,
+      "keep": 512,
+      "rank1_native": false,
+      "adaptive": false,
+      "preview_keep": 128,
+      "depth_override": 4
+    },
+    "population_sha256": "eeee05f4832a2c0e2fe6528ba916f69b384b945fe6caeeabd511d788ceb72b09",
+    "total_seconds": 297.1924050998023,
+    "active_query_seconds": 296.520694199804,
+    "p95_active_query_seconds": 0.43925556000103805,
+    "charged_shared_startup_seconds": 0.6631196999987878,
+    "own_setup_seconds": 0.008591199999500532,
+    "seed_seconds": 0.035086800085991854,
+    "base_seconds": 19.616415599874017,
+    "prepare_seconds": 31.501231700043718,
+    "certify_seconds": 245.3258593999417,
+    "release_seconds": 0.04210069985856535,
+    "stable_cuts": 6754,
+    "verified_unstable_cuts": 0,
+    "unknown_cuts": 497,
+    "total_cuts": 7251,
+    "resolved_all_cut_queries": 1993,
+    "unresolved_all_cut_queries": 424,
+    "resolved_all_cut_fraction": 0.824575920562681,
+    "verified_point_witnesses": false,
+    "every_cut_stable_queries": 1993,
+    "every_cut_stable_fraction": 0.824575920562681,
+    "outcome_scope": "Certificate capacity only: all cutoffs STABLE, no point witnesses.",
+    "cache": {
+      "hits": 5253,
+      "misses": 5829,
+      "evictions": 5717,
+      "refinement_invalidations": 0
+    },
+    "routes": {
+      "sparse": 2417
+    },
+    "peak_private_retained_numeric_bytes": 1684826,
+    "peak_admission_reserved_numeric_bytes": 4194298,
+    "terminal_private_retained_numeric_bytes": 854103,
+    "terminal_admission_reserved_numeric_bytes": 854103,
+    "summary_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\certificate_capacity_v4\\C_certificate_budget4_mu\\summary.json",
+    "summary_sha256": "8d53a8aec724b734ec326a78f6907d3bc1482b5f35ac706851f6989e49436edf",
+    "manifest_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\certificate_capacity_v4\\C_certificate_budget4_mu\\job_manifest.json",
+    "manifest_sha256": "a087a6c502c73755af18de68fc2916790e6e0b125b61d5d1180d5542d904b1d7",
+    "cost_population": "Every original query, including UNKNOWN. No completion-subset filtering.",
+    "memory_scope": "Private retained/admission numeric accounting. No paired OS peak is attributed to a method."
+  },
+  {
+    "cohort_id": "C_certificate_budget16_mu",
+    "group": "C",
+    "dataset": "musique_pool2417",
+    "block": 0,
+    "method": "lift_sparse_fine_preview",
+    "execution": "paired",
+    "questions": 2417,
+    "ks": [
+      2,
+      5,
+      10
+    ],
+    "box": [
+      [
+        1.0,
+        4.0
+      ],
+      [
+        0.25,
+        2.0
+      ]
+    ],
+    "budget_bytes": 16777216,
+    "method_configuration": {
+      "name": "lift_sparse_fine_preview",
+      "mode": "sparse",
+      "certifier": "lifting",
+      "atom_tol": 1e-06,
+      "keep": 512,
+      "rank1_native": false,
+      "adaptive": false,
+      "preview_keep": 128,
+      "depth_override": 4
+    },
+    "population_sha256": "eeee05f4832a2c0e2fe6528ba916f69b384b945fe6caeeabd511d788ceb72b09",
+    "total_seconds": 303.5860298997213,
+    "active_query_seconds": 302.88593109972135,
+    "p95_active_query_seconds": 0.4561422600017976,
+    "charged_shared_startup_seconds": 0.6913491000013892,
+    "own_setup_seconds": 0.008749699998588767,
+    "seed_seconds": 0.028865700129244942,
+    "base_seconds": 18.441002199673676,
+    "prepare_seconds": 25.566402099953848,
+    "certify_seconds": 258.80750780005474,
+    "release_seconds": 0.042153299909841735,
+    "stable_cuts": 6754,
+    "verified_unstable_cuts": 0,
+    "unknown_cuts": 497,
+    "total_cuts": 7251,
+    "resolved_all_cut_queries": 1993,
+    "unresolved_all_cut_queries": 424,
+    "resolved_all_cut_fraction": 0.824575920562681,
+    "verified_point_witnesses": false,
+    "every_cut_stable_queries": 1993,
+    "every_cut_stable_fraction": 0.824575920562681,
+    "outcome_scope": "Certificate capacity only: all cutoffs STABLE, no point witnesses.",
+    "cache": {
+      "hits": 6458,
+      "misses": 4624,
+      "evictions": 2745,
+      "refinement_invalidations": 0
+    },
+    "routes": {
+      "sparse": 2417
+    },
+    "peak_private_retained_numeric_bytes": 14079322,
+    "peak_admission_reserved_numeric_bytes": 16777209,
+    "terminal_private_retained_numeric_bytes": 13438612,
+    "terminal_admission_reserved_numeric_bytes": 13438612,
+    "summary_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\certificate_capacity_v4\\C_certificate_budget16_mu\\summary.json",
+    "summary_sha256": "1e5ef4904f50d276b2ace5118085a54691bd4442715fadc2519b0362f9267303",
+    "manifest_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\certificate_capacity_v4\\C_certificate_budget16_mu\\job_manifest.json",
+    "manifest_sha256": "985f893a5dd880a426e095254ff22d1f6de4e45f63148b274d3a6f51973f565f",
+    "cost_population": "Every original query, including UNKNOWN. No completion-subset filtering.",
+    "memory_scope": "Private retained/admission numeric accounting. No paired OS peak is attributed to a method."
+  }
+]

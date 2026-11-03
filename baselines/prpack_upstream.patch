@@ -1,0 +1,25 @@
+diff --git a/prpack_base_graph.cpp b/prpack_base_graph.cpp
+index 70c8478..86f65b9 100644
+--- a/prpack_base_graph.cpp
++++ b/prpack_base_graph.cpp
+@@ -187,7 +187,7 @@ bool prpack_base_graph::read_smat(FILE* f, const bool weighted) {
+     memset(tails, 0, num_vs*sizeof(tails[0]));
+     for (int i = 0; i < num_es; ++i) {
+         double ignore;
+-        retval = fscanf(f, "%d %d %lf", &hs[i], &ts[i], &((weighted) ? vs[i] : ignore));
++        int retval = fscanf(f, "%d %d %lf", &hs[i], &ts[i], &((weighted) ? vs[i] : ignore));
+         if (retval != 3) {
+             prpack_utils::validate(false, "Error: cannot parse smat file.");
+         }
+diff --git a/prpack_solver.h b/prpack_solver.h
+index 8f797ff..bcd9b3d 100644
+--- a/prpack_solver.h
++++ b/prpack_solver.h
+@@ -17,6 +17,7 @@ namespace prpack {
+ 
+     // Solver class.
+     class prpack_solver {
++        friend struct prpack_adapter_access;
+         private:
+             // instance variables
+             double read_time;

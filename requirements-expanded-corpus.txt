@@ -1,0 +1,3 @@
+# Separate optional parser dependency for the isolated expanded-corpus builder.
+# Current numerical execution environment/packages are otherwise unchanged.
+ijson==3.6.0

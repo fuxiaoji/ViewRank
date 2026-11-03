@@ -1,0 +1,772 @@
+[
+  {
+    "cohort_id": "B_own_matched_hot",
+    "group": "B",
+    "dataset": "hotpot_pool7405",
+    "block": 0,
+    "method": "adaptive_preview",
+    "execution": "paired",
+    "questions": 1000,
+    "ks": [
+      2,
+      5,
+      10
+    ],
+    "box": [
+      [
+        1.0,
+        4.0
+      ],
+      [
+        0.25,
+        2.0
+      ]
+    ],
+    "budget_bytes": 16777216,
+    "method_configuration": {
+      "name": "adaptive_preview",
+      "mode": "sparse",
+      "certifier": "poly",
+      "atom_tol": 0.0001,
+      "keep": 512,
+      "rank1_native": false,
+      "adaptive": true,
+      "preview_keep": 128,
+      "depth_override": null
+    },
+    "population_sha256": "8b0d8aa76c2102ac62634d409d2d04c68f7220f9368224e51fbcd65d7fcbe7d6",
+    "total_seconds": 138.31102000001556,
+    "active_query_seconds": 136.01276350001353,
+    "p95_active_query_seconds": 0.40432582999837874,
+    "charged_shared_startup_seconds": 2.2762785000013537,
+    "own_setup_seconds": 0.021978000000672182,
+    "seed_seconds": 0.030980300052760867,
+    "base_seconds": 35.489925499969104,
+    "prepare_seconds": 54.80420910003522,
+    "certify_seconds": 45.67143489992668,
+    "release_seconds": 0.016213700029766187,
+    "stable_cuts": 2899,
+    "verified_unstable_cuts": 99,
+    "unknown_cuts": 2,
+    "total_cuts": 3000,
+    "resolved_all_cut_queries": 998,
+    "unresolved_all_cut_queries": 2,
+    "resolved_all_cut_fraction": 0.998,
+    "verified_point_witnesses": true,
+    "every_cut_stable_queries": null,
+    "every_cut_stable_fraction": null,
+    "outcome_scope": "Full operator: all cutoffs STABLE or verified UNSTABLE; UNKNOWN is unresolved.",
+    "cache": {
+      "hits": 2508,
+      "misses": 4264,
+      "evictions": 0,
+      "refinement_invalidations": 590
+    },
+    "routes": {
+      "adaptive_sparse": 1000
+    },
+    "peak_private_retained_numeric_bytes": 12489865,
+    "peak_admission_reserved_numeric_bytes": 15162300,
+    "terminal_private_retained_numeric_bytes": 12339004,
+    "terminal_admission_reserved_numeric_bytes": 12339004,
+    "summary_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\B_own_matched_hot\\summary.json",
+    "summary_sha256": "9e7501af4d202ee5df5feca83c2b02797792ef2f6bb20bb4bd775297a17b9f1c",
+    "manifest_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\B_own_matched_hot\\job_manifest.json",
+    "manifest_sha256": "1caf71002b3bc5dbc7de736a9ea3fbc80f9096594d9e92d61870b4ece6d409a1",
+    "cost_population": "Every original query, including UNKNOWN. No completion-subset filtering.",
+    "memory_scope": "Private retained/admission numeric accounting. No paired OS peak is attributed to a method."
+  },
+  {
+    "cohort_id": "B_own_matched_hot",
+    "group": "B",
+    "dataset": "hotpot_pool7405",
+    "block": 0,
+    "method": "fine_preview",
+    "execution": "paired",
+    "questions": 1000,
+    "ks": [
+      2,
+      5,
+      10
+    ],
+    "box": [
+      [
+        1.0,
+        4.0
+      ],
+      [
+        0.25,
+        2.0
+      ]
+    ],
+    "budget_bytes": 16777216,
+    "method_configuration": {
+      "name": "fine_preview",
+      "mode": "sparse",
+      "certifier": "poly",
+      "atom_tol": 1e-06,
+      "keep": 512,
+      "rank1_native": false,
+      "adaptive": false,
+      "preview_keep": 128,
+      "depth_override": null
+    },
+    "population_sha256": "8b0d8aa76c2102ac62634d409d2d04c68f7220f9368224e51fbcd65d7fcbe7d6",
+    "total_seconds": 149.01603359976798,
+    "active_query_seconds": 146.71909339976628,
+    "p95_active_query_seconds": 0.305888599996615,
+    "charged_shared_startup_seconds": 2.2762785000013537,
+    "own_setup_seconds": 0.020661700000346173,
+    "seed_seconds": 0.029368699946644483,
+    "base_seconds": 35.57966859996668,
+    "prepare_seconds": 72.90608189993509,
+    "certify_seconds": 38.16256279996014,
+    "release_seconds": 0.041411399957723916,
+    "stable_cuts": 2898,
+    "verified_unstable_cuts": 99,
+    "unknown_cuts": 3,
+    "total_cuts": 3000,
+    "resolved_all_cut_queries": 997,
+    "unresolved_all_cut_queries": 3,
+    "resolved_all_cut_fraction": 0.997,
+    "verified_point_witnesses": true,
+    "every_cut_stable_queries": null,
+    "every_cut_stable_fraction": null,
+    "outcome_scope": "Full operator: all cutoffs STABLE or verified UNSTABLE; UNKNOWN is unresolved.",
+    "cache": {
+      "hits": 2276,
+      "misses": 3762,
+      "evictions": 1432,
+      "refinement_invalidations": 0
+    },
+    "routes": {
+      "sparse": 1000
+    },
+    "peak_private_retained_numeric_bytes": 16167253,
+    "peak_admission_reserved_numeric_bytes": 16777149,
+    "terminal_private_retained_numeric_bytes": 15903859,
+    "terminal_admission_reserved_numeric_bytes": 15903859,
+    "summary_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\B_own_matched_hot\\summary.json",
+    "summary_sha256": "9e7501af4d202ee5df5feca83c2b02797792ef2f6bb20bb4bd775297a17b9f1c",
+    "manifest_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\B_own_matched_hot\\job_manifest.json",
+    "manifest_sha256": "1caf71002b3bc5dbc7de736a9ea3fbc80f9096594d9e92d61870b4ece6d409a1",
+    "cost_population": "Every original query, including UNKNOWN. No completion-subset filtering.",
+    "memory_scope": "Private retained/admission numeric accounting. No paired OS peak is attributed to a method."
+  },
+  {
+    "cohort_id": "B_own_matched_hot",
+    "group": "B",
+    "dataset": "hotpot_pool7405",
+    "block": 0,
+    "method": "interval_preview_fine",
+    "execution": "paired",
+    "questions": 1000,
+    "ks": [
+      2,
+      5,
+      10
+    ],
+    "box": [
+      [
+        1.0,
+        4.0
+      ],
+      [
+        0.25,
+        2.0
+      ]
+    ],
+    "budget_bytes": 16777216,
+    "method_configuration": {
+      "name": "interval_preview_fine",
+      "mode": "sparse",
+      "certifier": "interval",
+      "atom_tol": 1e-06,
+      "keep": 512,
+      "rank1_native": false,
+      "adaptive": false,
+      "preview_keep": 128,
+      "depth_override": null
+    },
+    "population_sha256": "8b0d8aa76c2102ac62634d409d2d04c68f7220f9368224e51fbcd65d7fcbe7d6",
+    "total_seconds": 143.01947829994242,
+    "active_query_seconds": 140.72273349993702,
+    "p95_active_query_seconds": 0.24063928500199833,
+    "charged_shared_startup_seconds": 2.2762785000013537,
+    "own_setup_seconds": 0.02046630000404548,
+    "seed_seconds": 0.028931000000739004,
+    "base_seconds": 35.26491759990677,
+    "prepare_seconds": 72.83298350006953,
+    "certify_seconds": 32.57846489993608,
+    "release_seconds": 0.017436500023904955,
+    "stable_cuts": 1942,
+    "verified_unstable_cuts": 99,
+    "unknown_cuts": 959,
+    "total_cuts": 3000,
+    "resolved_all_cut_queries": 467,
+    "unresolved_all_cut_queries": 533,
+    "resolved_all_cut_fraction": 0.467,
+    "verified_point_witnesses": true,
+    "every_cut_stable_queries": null,
+    "every_cut_stable_fraction": null,
+    "outcome_scope": "Full operator: all cutoffs STABLE or verified UNSTABLE; UNKNOWN is unresolved.",
+    "cache": {
+      "hits": 2276,
+      "misses": 3762,
+      "evictions": 1432,
+      "refinement_invalidations": 0
+    },
+    "routes": {
+      "sparse": 1000
+    },
+    "peak_private_retained_numeric_bytes": 16187887,
+    "peak_admission_reserved_numeric_bytes": 16777149,
+    "terminal_private_retained_numeric_bytes": 15903859,
+    "terminal_admission_reserved_numeric_bytes": 15903859,
+    "summary_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\B_own_matched_hot\\summary.json",
+    "summary_sha256": "9e7501af4d202ee5df5feca83c2b02797792ef2f6bb20bb4bd775297a17b9f1c",
+    "manifest_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\B_own_matched_hot\\job_manifest.json",
+    "manifest_sha256": "1caf71002b3bc5dbc7de736a9ea3fbc80f9096594d9e92d61870b4ece6d409a1",
+    "cost_population": "Every original query, including UNKNOWN. No completion-subset filtering.",
+    "memory_scope": "Private retained/admission numeric accounting. No paired OS peak is attributed to a method."
+  },
+  {
+    "cohort_id": "B_own_matched_hot",
+    "group": "B",
+    "dataset": "hotpot_pool7405",
+    "block": 0,
+    "method": "no_core_preview_fine",
+    "execution": "paired",
+    "questions": 1000,
+    "ks": [
+      2,
+      5,
+      10
+    ],
+    "box": [
+      [
+        1.0,
+        4.0
+      ],
+      [
+        0.25,
+        2.0
+      ]
+    ],
+    "budget_bytes": 16777216,
+    "method_configuration": {
+      "name": "no_core_preview_fine",
+      "mode": "no_core",
+      "certifier": "poly",
+      "atom_tol": 1e-06,
+      "keep": 512,
+      "rank1_native": false,
+      "adaptive": false,
+      "preview_keep": 128,
+      "depth_override": null
+    },
+    "population_sha256": "8b0d8aa76c2102ac62634d409d2d04c68f7220f9368224e51fbcd65d7fcbe7d6",
+    "total_seconds": 309.3119586999055,
+    "active_query_seconds": 307.022164399903,
+    "p95_active_query_seconds": 0.6253166249985951,
+    "charged_shared_startup_seconds": 2.2762785000013537,
+    "own_setup_seconds": 0.013515800001187017,
+    "seed_seconds": 0.027896799972950248,
+    "base_seconds": 35.325231599945255,
+    "prepare_seconds": 72.98954759995831,
+    "certify_seconds": 198.66106020000007,
+    "release_seconds": 0.018428200026392005,
+    "stable_cuts": 1339,
+    "verified_unstable_cuts": 99,
+    "unknown_cuts": 1562,
+    "total_cuts": 3000,
+    "resolved_all_cut_queries": 222,
+    "unresolved_all_cut_queries": 778,
+    "resolved_all_cut_fraction": 0.222,
+    "verified_point_witnesses": true,
+    "every_cut_stable_queries": null,
+    "every_cut_stable_fraction": null,
+    "outcome_scope": "Full operator: all cutoffs STABLE or verified UNSTABLE; UNKNOWN is unresolved.",
+    "cache": {
+      "hits": 2276,
+      "misses": 3762,
+      "evictions": 1419,
+      "refinement_invalidations": 0
+    },
+    "routes": {
+      "no_core": 1000
+    },
+    "peak_private_retained_numeric_bytes": 16195965,
+    "peak_admission_reserved_numeric_bytes": 16777162,
+    "terminal_private_retained_numeric_bytes": 15919467,
+    "terminal_admission_reserved_numeric_bytes": 15919467,
+    "summary_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\B_own_matched_hot\\summary.json",
+    "summary_sha256": "9e7501af4d202ee5df5feca83c2b02797792ef2f6bb20bb4bd775297a17b9f1c",
+    "manifest_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\B_own_matched_hot\\job_manifest.json",
+    "manifest_sha256": "1caf71002b3bc5dbc7de736a9ea3fbc80f9096594d9e92d61870b4ece6d409a1",
+    "cost_population": "Every original query, including UNKNOWN. No completion-subset filtering.",
+    "memory_scope": "Private retained/admission numeric accounting. No paired OS peak is attributed to a method."
+  },
+  {
+    "cohort_id": "B_own_matched_hot",
+    "group": "B",
+    "dataset": "hotpot_pool7405",
+    "block": 0,
+    "method": "scan_preview_fine",
+    "execution": "paired",
+    "questions": 1000,
+    "ks": [
+      2,
+      5,
+      10
+    ],
+    "box": [
+      [
+        1.0,
+        4.0
+      ],
+      [
+        0.25,
+        2.0
+      ]
+    ],
+    "budget_bytes": 16777216,
+    "method_configuration": {
+      "name": "scan_preview_fine",
+      "mode": "scan",
+      "certifier": "poly",
+      "atom_tol": 1e-06,
+      "keep": 512,
+      "rank1_native": false,
+      "adaptive": false,
+      "preview_keep": 128,
+      "depth_override": null
+    },
+    "population_sha256": "8b0d8aa76c2102ac62634d409d2d04c68f7220f9368224e51fbcd65d7fcbe7d6",
+    "total_seconds": 761.8438192999383,
+    "active_query_seconds": 759.5470752999354,
+    "p95_active_query_seconds": 3.972475899998608,
+    "charged_shared_startup_seconds": 2.2762785000013537,
+    "own_setup_seconds": 0.020465500001591863,
+    "seed_seconds": 0.02802480005993857,
+    "base_seconds": 35.46083619993078,
+    "prepare_seconds": 91.2957663999805,
+    "certify_seconds": 632.738118799949,
+    "release_seconds": 0.02432910001516575,
+    "stable_cuts": 2899,
+    "verified_unstable_cuts": 99,
+    "unknown_cuts": 2,
+    "total_cuts": 3000,
+    "resolved_all_cut_queries": 998,
+    "unresolved_all_cut_queries": 2,
+    "resolved_all_cut_fraction": 0.998,
+    "verified_point_witnesses": true,
+    "every_cut_stable_queries": null,
+    "every_cut_stable_fraction": null,
+    "outcome_scope": "Full operator: all cutoffs STABLE or verified UNSTABLE; UNKNOWN is unresolved.",
+    "cache": {
+      "hits": 1701,
+      "misses": 4337,
+      "evictions": 3625,
+      "refinement_invalidations": 0
+    },
+    "routes": {
+      "scan": 1000
+    },
+    "peak_private_retained_numeric_bytes": 11601086,
+    "peak_admission_reserved_numeric_bytes": 16777216,
+    "terminal_private_retained_numeric_bytes": 4929104,
+    "terminal_admission_reserved_numeric_bytes": 4929104,
+    "summary_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\B_own_matched_hot\\summary.json",
+    "summary_sha256": "9e7501af4d202ee5df5feca83c2b02797792ef2f6bb20bb4bd775297a17b9f1c",
+    "manifest_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\B_own_matched_hot\\job_manifest.json",
+    "manifest_sha256": "1caf71002b3bc5dbc7de736a9ea3fbc80f9096594d9e92d61870b4ece6d409a1",
+    "cost_population": "Every original query, including UNKNOWN. No completion-subset filtering.",
+    "memory_scope": "Private retained/admission numeric accounting. No paired OS peak is attributed to a method."
+  },
+  {
+    "cohort_id": "B_own_matched_mu",
+    "group": "B",
+    "dataset": "musique_pool2417",
+    "block": 0,
+    "method": "adaptive_preview",
+    "execution": "paired",
+    "questions": 2417,
+    "ks": [
+      2,
+      5,
+      10
+    ],
+    "box": [
+      [
+        1.0,
+        4.0
+      ],
+      [
+        0.25,
+        2.0
+      ]
+    ],
+    "budget_bytes": 16777216,
+    "method_configuration": {
+      "name": "adaptive_preview",
+      "mode": "sparse",
+      "certifier": "poly",
+      "atom_tol": 0.0001,
+      "keep": 512,
+      "rank1_native": false,
+      "adaptive": true,
+      "preview_keep": 128,
+      "depth_override": null
+    },
+    "population_sha256": "eeee05f4832a2c0e2fe6528ba916f69b384b945fe6caeeabd511d788ceb72b09",
+    "total_seconds": 199.2055763000899,
+    "active_query_seconds": 198.5218533000916,
+    "p95_active_query_seconds": 0.3386821400003096,
+    "charged_shared_startup_seconds": 0.6605797999982315,
+    "own_setup_seconds": 0.023143200000049546,
+    "seed_seconds": 0.07096170008662739,
+    "base_seconds": 28.128921999967133,
+    "prepare_seconds": 40.29938100004074,
+    "certify_seconds": 129.96644970011403,
+    "release_seconds": 0.05613889988308074,
+    "stable_cuts": 6777,
+    "verified_unstable_cuts": 450,
+    "unknown_cuts": 24,
+    "total_cuts": 7251,
+    "resolved_all_cut_queries": 2393,
+    "unresolved_all_cut_queries": 24,
+    "resolved_all_cut_fraction": 0.9900703351261895,
+    "verified_point_witnesses": true,
+    "every_cut_stable_queries": null,
+    "every_cut_stable_fraction": null,
+    "outcome_scope": "Full operator: all cutoffs STABLE or verified UNSTABLE; UNKNOWN is unresolved.",
+    "cache": {
+      "hits": 7121,
+      "misses": 5971,
+      "evictions": 707,
+      "refinement_invalidations": 1479
+    },
+    "routes": {
+      "adaptive_sparse": 2417
+    },
+    "peak_private_retained_numeric_bytes": 16164368,
+    "peak_admission_reserved_numeric_bytes": 16776974,
+    "terminal_private_retained_numeric_bytes": 16015510,
+    "terminal_admission_reserved_numeric_bytes": 16015510,
+    "summary_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\B_own_matched_mu\\summary.json",
+    "summary_sha256": "d53e1dfb7bb08f4e5041466a3eb5d82f2cc5520fd7149d31f475847f0e93d394",
+    "manifest_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\B_own_matched_mu\\job_manifest.json",
+    "manifest_sha256": "8da1b0b666fbdb0936236230c2eda34c9cf865361ba380714d01cf5584bfe97f",
+    "cost_population": "Every original query, including UNKNOWN. No completion-subset filtering.",
+    "memory_scope": "Private retained/admission numeric accounting. No paired OS peak is attributed to a method."
+  },
+  {
+    "cohort_id": "B_own_matched_mu",
+    "group": "B",
+    "dataset": "musique_pool2417",
+    "block": 0,
+    "method": "fine_preview",
+    "execution": "paired",
+    "questions": 2417,
+    "ks": [
+      2,
+      5,
+      10
+    ],
+    "box": [
+      [
+        1.0,
+        4.0
+      ],
+      [
+        0.25,
+        2.0
+      ]
+    ],
+    "budget_bytes": 16777216,
+    "method_configuration": {
+      "name": "fine_preview",
+      "mode": "sparse",
+      "certifier": "poly",
+      "atom_tol": 1e-06,
+      "keep": 512,
+      "rank1_native": false,
+      "adaptive": false,
+      "preview_keep": 128,
+      "depth_override": null
+    },
+    "population_sha256": "eeee05f4832a2c0e2fe6528ba916f69b384b945fe6caeeabd511d788ceb72b09",
+    "total_seconds": 169.4510739999132,
+    "active_query_seconds": 168.76110769991283,
+    "p95_active_query_seconds": 0.23426761999653523,
+    "charged_shared_startup_seconds": 0.6605797999982315,
+    "own_setup_seconds": 0.02938650000214693,
+    "seed_seconds": 0.058227500070643146,
+    "base_seconds": 27.40953459998127,
+    "prepare_seconds": 40.44125830005578,
+    "certify_seconds": 100.68002769987652,
+    "release_seconds": 0.17205959992861608,
+    "stable_cuts": 6776,
+    "verified_unstable_cuts": 450,
+    "unknown_cuts": 25,
+    "total_cuts": 7251,
+    "resolved_all_cut_queries": 2392,
+    "unresolved_all_cut_queries": 25,
+    "resolved_all_cut_fraction": 0.9896565990897808,
+    "verified_point_witnesses": true,
+    "every_cut_stable_queries": null,
+    "every_cut_stable_fraction": null,
+    "outcome_scope": "Full operator: all cutoffs STABLE or verified UNSTABLE; UNKNOWN is unresolved.",
+    "cache": {
+      "hits": 6492,
+      "misses": 4590,
+      "evictions": 2363,
+      "refinement_invalidations": 0
+    },
+    "routes": {
+      "sparse": 2417
+    },
+    "peak_private_retained_numeric_bytes": 16324380,
+    "peak_admission_reserved_numeric_bytes": 16777216,
+    "terminal_private_retained_numeric_bytes": 15853410,
+    "terminal_admission_reserved_numeric_bytes": 15853410,
+    "summary_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\B_own_matched_mu\\summary.json",
+    "summary_sha256": "d53e1dfb7bb08f4e5041466a3eb5d82f2cc5520fd7149d31f475847f0e93d394",
+    "manifest_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\B_own_matched_mu\\job_manifest.json",
+    "manifest_sha256": "8da1b0b666fbdb0936236230c2eda34c9cf865361ba380714d01cf5584bfe97f",
+    "cost_population": "Every original query, including UNKNOWN. No completion-subset filtering.",
+    "memory_scope": "Private retained/admission numeric accounting. No paired OS peak is attributed to a method."
+  },
+  {
+    "cohort_id": "B_own_matched_mu",
+    "group": "B",
+    "dataset": "musique_pool2417",
+    "block": 0,
+    "method": "interval_preview_fine",
+    "execution": "paired",
+    "questions": 2417,
+    "ks": [
+      2,
+      5,
+      10
+    ],
+    "box": [
+      [
+        1.0,
+        4.0
+      ],
+      [
+        0.25,
+        2.0
+      ]
+    ],
+    "budget_bytes": 16777216,
+    "method_configuration": {
+      "name": "interval_preview_fine",
+      "mode": "sparse",
+      "certifier": "interval",
+      "atom_tol": 1e-06,
+      "keep": 512,
+      "rank1_native": false,
+      "adaptive": false,
+      "preview_keep": 128,
+      "depth_override": null
+    },
+    "population_sha256": "eeee05f4832a2c0e2fe6528ba916f69b384b945fe6caeeabd511d788ceb72b09",
+    "total_seconds": 140.27667249984006,
+    "active_query_seconds": 139.59370519984077,
+    "p95_active_query_seconds": 0.14844779999330052,
+    "charged_shared_startup_seconds": 0.6605797999982315,
+    "own_setup_seconds": 0.02238750000105938,
+    "seed_seconds": 0.06690819993673358,
+    "base_seconds": 27.913714199956303,
+    "prepare_seconds": 40.54837200000475,
+    "certify_seconds": 71.00464829994962,
+    "release_seconds": 0.06006249999336433,
+    "stable_cuts": 4697,
+    "verified_unstable_cuts": 450,
+    "unknown_cuts": 2104,
+    "total_cuts": 7251,
+    "resolved_all_cut_queries": 1267,
+    "unresolved_all_cut_queries": 1150,
+    "resolved_all_cut_fraction": 0.5242035581299131,
+    "verified_point_witnesses": true,
+    "every_cut_stable_queries": null,
+    "every_cut_stable_fraction": null,
+    "outcome_scope": "Full operator: all cutoffs STABLE or verified UNSTABLE; UNKNOWN is unresolved.",
+    "cache": {
+      "hits": 6492,
+      "misses": 4590,
+      "evictions": 2363,
+      "refinement_invalidations": 0
+    },
+    "routes": {
+      "sparse": 2417
+    },
+    "peak_private_retained_numeric_bytes": 16345823,
+    "peak_admission_reserved_numeric_bytes": 16777216,
+    "terminal_private_retained_numeric_bytes": 15853410,
+    "terminal_admission_reserved_numeric_bytes": 15853410,
+    "summary_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\B_own_matched_mu\\summary.json",
+    "summary_sha256": "d53e1dfb7bb08f4e5041466a3eb5d82f2cc5520fd7149d31f475847f0e93d394",
+    "manifest_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\B_own_matched_mu\\job_manifest.json",
+    "manifest_sha256": "8da1b0b666fbdb0936236230c2eda34c9cf865361ba380714d01cf5584bfe97f",
+    "cost_population": "Every original query, including UNKNOWN. No completion-subset filtering.",
+    "memory_scope": "Private retained/admission numeric accounting. No paired OS peak is attributed to a method."
+  },
+  {
+    "cohort_id": "B_own_matched_mu",
+    "group": "B",
+    "dataset": "musique_pool2417",
+    "block": 0,
+    "method": "no_core_preview_fine",
+    "execution": "paired",
+    "questions": 2417,
+    "ks": [
+      2,
+      5,
+      10
+    ],
+    "box": [
+      [
+        1.0,
+        4.0
+      ],
+      [
+        0.25,
+        2.0
+      ]
+    ],
+    "budget_bytes": 16777216,
+    "method_configuration": {
+      "name": "no_core_preview_fine",
+      "mode": "no_core",
+      "certifier": "poly",
+      "atom_tol": 1e-06,
+      "keep": 512,
+      "rank1_native": false,
+      "adaptive": false,
+      "preview_keep": 128,
+      "depth_override": null
+    },
+    "population_sha256": "eeee05f4832a2c0e2fe6528ba916f69b384b945fe6caeeabd511d788ceb72b09",
+    "total_seconds": 476.0869627000575,
+    "active_query_seconds": 475.4125251000587,
+    "p95_active_query_seconds": 0.7287191599963989,
+    "charged_shared_startup_seconds": 0.6605797999982315,
+    "own_setup_seconds": 0.013857800000550924,
+    "seed_seconds": 0.05432290004318929,
+    "base_seconds": 27.488952799998515,
+    "prepare_seconds": 39.785116800048854,
+    "certify_seconds": 408.0197444999794,
+    "release_seconds": 0.06438809998871875,
+    "stable_cuts": 2616,
+    "verified_unstable_cuts": 450,
+    "unknown_cuts": 4185,
+    "total_cuts": 7251,
+    "resolved_all_cut_queries": 407,
+    "unresolved_all_cut_queries": 2010,
+    "resolved_all_cut_fraction": 0.1683905668183699,
+    "verified_point_witnesses": true,
+    "every_cut_stable_queries": null,
+    "every_cut_stable_fraction": null,
+    "outcome_scope": "Full operator: all cutoffs STABLE or verified UNSTABLE; UNKNOWN is unresolved.",
+    "cache": {
+      "hits": 6494,
+      "misses": 4588,
+      "evictions": 2348,
+      "refinement_invalidations": 0
+    },
+    "routes": {
+      "no_core": 2417
+    },
+    "peak_private_retained_numeric_bytes": 16351668,
+    "peak_admission_reserved_numeric_bytes": 16777184,
+    "terminal_private_retained_numeric_bytes": 15861260,
+    "terminal_admission_reserved_numeric_bytes": 15861260,
+    "summary_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\B_own_matched_mu\\summary.json",
+    "summary_sha256": "d53e1dfb7bb08f4e5041466a3eb5d82f2cc5520fd7149d31f475847f0e93d394",
+    "manifest_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\B_own_matched_mu\\job_manifest.json",
+    "manifest_sha256": "8da1b0b666fbdb0936236230c2eda34c9cf865361ba380714d01cf5584bfe97f",
+    "cost_population": "Every original query, including UNKNOWN. No completion-subset filtering.",
+    "memory_scope": "Private retained/admission numeric accounting. No paired OS peak is attributed to a method."
+  },
+  {
+    "cohort_id": "B_own_matched_mu",
+    "group": "B",
+    "dataset": "musique_pool2417",
+    "block": 0,
+    "method": "scan_preview_fine",
+    "execution": "paired",
+    "questions": 2417,
+    "ks": [
+      2,
+      5,
+      10
+    ],
+    "box": [
+      [
+        1.0,
+        4.0
+      ],
+      [
+        0.25,
+        2.0
+      ]
+    ],
+    "budget_bytes": 16777216,
+    "method_configuration": {
+      "name": "scan_preview_fine",
+      "mode": "scan",
+      "certifier": "poly",
+      "atom_tol": 1e-06,
+      "keep": 512,
+      "rank1_native": false,
+      "adaptive": false,
+      "preview_keep": 128,
+      "depth_override": null
+    },
+    "population_sha256": "eeee05f4832a2c0e2fe6528ba916f69b384b945fe6caeeabd511d788ceb72b09",
+    "total_seconds": 779.8047450001031,
+    "active_query_seconds": 779.1217315001013,
+    "p95_active_query_seconds": 1.9211097000013977,
+    "charged_shared_startup_seconds": 0.6605797999982315,
+    "own_setup_seconds": 0.022433700003603008,
+    "seed_seconds": 0.053580500149109866,
+    "base_seconds": 27.791645199937193,
+    "prepare_seconds": 47.53470130010828,
+    "certify_seconds": 703.6676118999167,
+    "release_seconds": 0.0741925999900559,
+    "stable_cuts": 6776,
+    "verified_unstable_cuts": 450,
+    "unknown_cuts": 25,
+    "total_cuts": 7251,
+    "resolved_all_cut_queries": 2392,
+    "unresolved_all_cut_queries": 25,
+    "resolved_all_cut_fraction": 0.9896565990897808,
+    "verified_point_witnesses": true,
+    "every_cut_stable_queries": null,
+    "every_cut_stable_fraction": null,
+    "outcome_scope": "Full operator: all cutoffs STABLE or verified UNSTABLE; UNKNOWN is unresolved.",
+    "cache": {
+      "hits": 6444,
+      "misses": 4638,
+      "evictions": 2845,
+      "refinement_invalidations": 0
+    },
+    "routes": {
+      "scan": 2417
+    },
+    "peak_private_retained_numeric_bytes": 14953740,
+    "peak_admission_reserved_numeric_bytes": 16777205,
+    "terminal_private_retained_numeric_bytes": 12824373,
+    "terminal_admission_reserved_numeric_bytes": 12824373,
+    "summary_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\B_own_matched_mu\\summary.json",
+    "summary_sha256": "d53e1dfb7bb08f4e5041466a3eb5d82f2cc5520fd7149d31f475847f0e93d394",
+    "manifest_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\B_own_matched_mu\\job_manifest.json",
+    "manifest_sha256": "8da1b0b666fbdb0936236230c2eda34c9cf865361ba380714d01cf5584bfe97f",
+    "cost_population": "Every original query, including UNKNOWN. No completion-subset filtering.",
+    "memory_scope": "Private retained/admission numeric accounting. No paired OS peak is attributed to a method."
+  }
+]

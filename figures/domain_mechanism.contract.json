@@ -1,0 +1,15 @@
+{
+  "version": "column-visual-revision-v2",
+  "claim": "Independent source fractions admit a membership excluded by shared weights.",
+  "type": "analytic mechanism",
+  "source": "Exact five-node construction; domain_mechanism.source.npz retains full analytic grid and boundary curves.",
+  "backend": "Python/Matplotlib",
+  "final_width_mm": 89,
+  "selection": "Full declared constructed interval, not empirical observations.",
+  "statistics": "Three-block points are descriptive, not confidence intervals. Single-block panels have no error bars.",
+  "input_report_sha256": "6106e42605760002d62990d592a202011e86692b16190ee916352e3043a40ede",
+  "producer_script": "scripts/make_domain_column_figures.py",
+  "script_sha256": "004f059891f0d3fc171894e883c26429807176154248c9775b5a74e4dcba6df2",
+  "shared_graphics_helper_sha256": "015cc97f8ddd4be6cc9531fdaac42ced5848e6b9223a562213e416fe308f9216",
+  "change": "The redundant score-boundary panel from the wide revision is expressed by the exact text derivation."
+}

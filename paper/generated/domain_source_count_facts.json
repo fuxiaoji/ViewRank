@@ -1,0 +1,627 @@
+{
+  "version": "domain-source-count-v1",
+  "report_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\evidence_summary_v3\\report.json",
+  "report_sha256": "6106e42605760002d62990d592a202011e86692b16190ee916352e3043a40ede",
+  "script_sha256": "a810eb7405ac1eb53269c63e5c08c930878074953940ac150b6f26ba29fe0f00",
+  "blocks": [
+    0,
+    1,
+    2
+  ],
+  "source_counts": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "methods": [
+    "fine_preview",
+    "lift_sparse_fine_preview"
+  ],
+  "datasets": {
+    "hotpot_pool7405": {
+      "cohort_id": "A_core_matched_hot",
+      "original_questions": 1000,
+      "population_sha256": "8b0d8aa76c2102ac62634d409d2d04c68f7220f9368224e51fbcd65d7fcbe7d6",
+      "ks": [
+        2,
+        5,
+        10
+      ],
+      "box": [
+        [
+          1.0,
+          4.0
+        ],
+        [
+          0.25,
+          2.0
+        ]
+      ],
+      "budget_bytes": 16777216,
+      "method_configurations": {
+        "fine_preview": {
+          "name": "fine_preview",
+          "mode": "sparse",
+          "certifier": "poly",
+          "atom_tol": 1e-06,
+          "keep": 512,
+          "rank1_native": false,
+          "adaptive": false,
+          "preview_keep": 128,
+          "depth_override": null
+        },
+        "lift_sparse_fine_preview": {
+          "name": "lift_sparse_fine_preview",
+          "mode": "sparse",
+          "certifier": "lifting",
+          "atom_tol": 1e-06,
+          "keep": 512,
+          "rank1_native": false,
+          "adaptive": false,
+          "preview_keep": 128,
+          "depth_override": 4
+        }
+      },
+      "summary_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\A_core_matched_hot\\summary.json",
+      "summary_sha256": "b904cf31b3e748cb61cf8fb6f2f75416af39ab8177dca176a922ca58f9054396",
+      "manifest_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\A_core_matched_hot\\job_manifest.json",
+      "manifest_sha256": "3cf021f49e2ba19309b9cd4203bf4b1c5bbf4ce41d1049a3fe550237cfff0672",
+      "strata": {
+        "1": {
+          "questions": 99,
+          "empty_stratum": false,
+          "primary_active_seconds": [
+            7.972720200003096,
+            7.5445081000289065,
+            7.258124299976771
+          ],
+          "source_lift_active_seconds": [
+            8.063457800017204,
+            7.80928510006197,
+            7.502525100044295
+          ],
+          "raw_paired_ratios": [
+            1.01138100895778,
+            1.0350953298111045,
+            1.0336727217620545
+          ],
+          "ratio_median": 1.0336727217620545,
+          "ratio_min": 1.01138100895778,
+          "ratio_max": 1.0350953298111045,
+          "primary_statuses_by_block": [
+            {
+              "stable_cuts": 289,
+              "verified_unstable_cuts": 7,
+              "unknown_cuts": 1,
+              "resolved_all_cut_queries": 98
+            },
+            {
+              "stable_cuts": 289,
+              "verified_unstable_cuts": 7,
+              "unknown_cuts": 1,
+              "resolved_all_cut_queries": 98
+            },
+            {
+              "stable_cuts": 289,
+              "verified_unstable_cuts": 7,
+              "unknown_cuts": 1,
+              "resolved_all_cut_queries": 98
+            }
+          ],
+          "source_lift_statuses_by_block": [
+            {
+              "stable_cuts": 289,
+              "verified_unstable_cuts": 7,
+              "unknown_cuts": 1,
+              "resolved_all_cut_queries": 98
+            },
+            {
+              "stable_cuts": 289,
+              "verified_unstable_cuts": 7,
+              "unknown_cuts": 1,
+              "resolved_all_cut_queries": 98
+            },
+            {
+              "stable_cuts": 289,
+              "verified_unstable_cuts": 7,
+              "unknown_cuts": 1,
+              "resolved_all_cut_queries": 98
+            }
+          ]
+        },
+        "2": {
+          "questions": 232,
+          "empty_stratum": false,
+          "primary_active_seconds": [
+            24.513870099977794,
+            22.93918320004741,
+            23.014745700114872
+          ],
+          "source_lift_active_seconds": [
+            26.246325400054047,
+            24.563401500010514,
+            24.79309139995894
+          ],
+          "raw_paired_ratios": [
+            1.0706724516777881,
+            1.0708054112388687,
+            1.0772698392159592
+          ],
+          "ratio_median": 1.0708054112388687,
+          "ratio_min": 1.0706724516777881,
+          "ratio_max": 1.0772698392159592,
+          "primary_statuses_by_block": [
+            {
+              "stable_cuts": 661,
+              "verified_unstable_cuts": 35,
+              "unknown_cuts": 0,
+              "resolved_all_cut_queries": 232
+            },
+            {
+              "stable_cuts": 661,
+              "verified_unstable_cuts": 35,
+              "unknown_cuts": 0,
+              "resolved_all_cut_queries": 232
+            },
+            {
+              "stable_cuts": 661,
+              "verified_unstable_cuts": 35,
+              "unknown_cuts": 0,
+              "resolved_all_cut_queries": 232
+            }
+          ],
+          "source_lift_statuses_by_block": [
+            {
+              "stable_cuts": 659,
+              "verified_unstable_cuts": 35,
+              "unknown_cuts": 2,
+              "resolved_all_cut_queries": 230
+            },
+            {
+              "stable_cuts": 659,
+              "verified_unstable_cuts": 35,
+              "unknown_cuts": 2,
+              "resolved_all_cut_queries": 230
+            },
+            {
+              "stable_cuts": 659,
+              "verified_unstable_cuts": 35,
+              "unknown_cuts": 2,
+              "resolved_all_cut_queries": 230
+            }
+          ]
+        },
+        "3": {
+          "questions": 220,
+          "empty_stratum": false,
+          "primary_active_seconds": [
+            29.421468199925584,
+            27.734109400018497,
+            27.57762439999715
+          ],
+          "source_lift_active_seconds": [
+            34.978145899967785,
+            33.372768299890595,
+            33.1107399999928
+          ],
+          "raw_paired_ratios": [
+            1.1888647317762426,
+            1.203311338343114,
+            1.2006378620486333
+          ],
+          "ratio_median": 1.2006378620486333,
+          "ratio_min": 1.1888647317762426,
+          "ratio_max": 1.203311338343114,
+          "primary_statuses_by_block": [
+            {
+              "stable_cuts": 638,
+              "verified_unstable_cuts": 21,
+              "unknown_cuts": 1,
+              "resolved_all_cut_queries": 219
+            },
+            {
+              "stable_cuts": 638,
+              "verified_unstable_cuts": 21,
+              "unknown_cuts": 1,
+              "resolved_all_cut_queries": 219
+            },
+            {
+              "stable_cuts": 638,
+              "verified_unstable_cuts": 21,
+              "unknown_cuts": 1,
+              "resolved_all_cut_queries": 219
+            }
+          ],
+          "source_lift_statuses_by_block": [
+            {
+              "stable_cuts": 636,
+              "verified_unstable_cuts": 21,
+              "unknown_cuts": 3,
+              "resolved_all_cut_queries": 218
+            },
+            {
+              "stable_cuts": 636,
+              "verified_unstable_cuts": 21,
+              "unknown_cuts": 3,
+              "resolved_all_cut_queries": 218
+            },
+            {
+              "stable_cuts": 636,
+              "verified_unstable_cuts": 21,
+              "unknown_cuts": 3,
+              "resolved_all_cut_queries": 218
+            }
+          ]
+        },
+        "4": {
+          "questions": 449,
+          "empty_stratum": false,
+          "primary_active_seconds": [
+            71.95899139995163,
+            68.3720175000235,
+            67.86708660002478
+          ],
+          "source_lift_active_seconds": [
+            136.95881470002132,
+            129.86006180002732,
+            130.18121289994815
+          ],
+          "raw_paired_ratios": [
+            1.9032898048667395,
+            1.899315927016234,
+            1.9181788908542985
+          ],
+          "ratio_median": 1.9032898048667395,
+          "ratio_min": 1.899315927016234,
+          "ratio_max": 1.9181788908542985,
+          "primary_statuses_by_block": [
+            {
+              "stable_cuts": 1310,
+              "verified_unstable_cuts": 36,
+              "unknown_cuts": 1,
+              "resolved_all_cut_queries": 448
+            },
+            {
+              "stable_cuts": 1310,
+              "verified_unstable_cuts": 36,
+              "unknown_cuts": 1,
+              "resolved_all_cut_queries": 448
+            },
+            {
+              "stable_cuts": 1310,
+              "verified_unstable_cuts": 36,
+              "unknown_cuts": 1,
+              "resolved_all_cut_queries": 448
+            }
+          ],
+          "source_lift_statuses_by_block": [
+            {
+              "stable_cuts": 1308,
+              "verified_unstable_cuts": 36,
+              "unknown_cuts": 3,
+              "resolved_all_cut_queries": 446
+            },
+            {
+              "stable_cuts": 1308,
+              "verified_unstable_cuts": 36,
+              "unknown_cuts": 3,
+              "resolved_all_cut_queries": 446
+            },
+            {
+              "stable_cuts": 1308,
+              "verified_unstable_cuts": 36,
+              "unknown_cuts": 3,
+              "resolved_all_cut_queries": 446
+            }
+          ]
+        }
+      },
+      "description": "On HotpotQA, the observed median SourceLift/ViewRank active-cost ratio is nondecreasing across the observed source-count strata; it is 1.03 at $r=1$ and 1.90 at $r=4$."
+    },
+    "musique_pool2417": {
+      "cohort_id": "A_core_matched_mu",
+      "original_questions": 2417,
+      "population_sha256": "eeee05f4832a2c0e2fe6528ba916f69b384b945fe6caeeabd511d788ceb72b09",
+      "ks": [
+        2,
+        5,
+        10
+      ],
+      "box": [
+        [
+          1.0,
+          4.0
+        ],
+        [
+          0.25,
+          2.0
+        ]
+      ],
+      "budget_bytes": 16777216,
+      "method_configurations": {
+        "fine_preview": {
+          "name": "fine_preview",
+          "mode": "sparse",
+          "certifier": "poly",
+          "atom_tol": 1e-06,
+          "keep": 512,
+          "rank1_native": false,
+          "adaptive": false,
+          "preview_keep": 128,
+          "depth_override": null
+        },
+        "lift_sparse_fine_preview": {
+          "name": "lift_sparse_fine_preview",
+          "mode": "sparse",
+          "certifier": "lifting",
+          "atom_tol": 1e-06,
+          "keep": 512,
+          "rank1_native": false,
+          "adaptive": false,
+          "preview_keep": 128,
+          "depth_override": 4
+        }
+      },
+      "summary_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\A_core_matched_mu\\summary.json",
+      "summary_sha256": "19a81c9fc3f2c765a3b03c38f7d213ecbd01b912d56e08e0373651da59c859e0",
+      "manifest_path": "D:\\desktop\\ICDE 2027\\results\\domain_supplement_v3\\A_core_matched_mu\\job_manifest.json",
+      "manifest_sha256": "dfd90864a0ca35a9a868b99b93d83cbf2558de9fcb3f2665b4903e7fffe524c1",
+      "strata": {
+        "1": {
+          "questions": 760,
+          "empty_stratum": false,
+          "primary_active_seconds": [
+            17.313505400103168,
+            17.33959299995331,
+            17.925160499893536
+          ],
+          "source_lift_active_seconds": [
+            19.079874099934386,
+            18.915058000096906,
+            19.434602800065477
+          ],
+          "raw_paired_ratios": [
+            1.102022592133231,
+            1.0908593990728523,
+            1.0842080214668597
+          ],
+          "ratio_median": 1.0908593990728523,
+          "ratio_min": 1.0842080214668597,
+          "ratio_max": 1.102022592133231,
+          "primary_statuses_by_block": [
+            {
+              "stable_cuts": 2160,
+              "verified_unstable_cuts": 113,
+              "unknown_cuts": 7,
+              "resolved_all_cut_queries": 753
+            },
+            {
+              "stable_cuts": 2160,
+              "verified_unstable_cuts": 113,
+              "unknown_cuts": 7,
+              "resolved_all_cut_queries": 753
+            },
+            {
+              "stable_cuts": 2160,
+              "verified_unstable_cuts": 113,
+              "unknown_cuts": 7,
+              "resolved_all_cut_queries": 753
+            }
+          ],
+          "source_lift_statuses_by_block": [
+            {
+              "stable_cuts": 2160,
+              "verified_unstable_cuts": 113,
+              "unknown_cuts": 7,
+              "resolved_all_cut_queries": 753
+            },
+            {
+              "stable_cuts": 2160,
+              "verified_unstable_cuts": 113,
+              "unknown_cuts": 7,
+              "resolved_all_cut_queries": 753
+            },
+            {
+              "stable_cuts": 2160,
+              "verified_unstable_cuts": 113,
+              "unknown_cuts": 7,
+              "resolved_all_cut_queries": 753
+            }
+          ]
+        },
+        "2": {
+          "questions": 797,
+          "empty_stratum": false,
+          "primary_active_seconds": [
+            31.070920399943134,
+            30.832232900036615,
+            31.81724759993449
+          ],
+          "source_lift_active_seconds": [
+            38.59291830006623,
+            38.527946600079304,
+            39.76821130013923
+          ],
+          "raw_paired_ratios": [
+            1.242091248128487,
+            1.249599622738759,
+            1.2498947677743535
+          ],
+          "ratio_median": 1.249599622738759,
+          "ratio_min": 1.242091248128487,
+          "ratio_max": 1.2498947677743535,
+          "primary_statuses_by_block": [
+            {
+              "stable_cuts": 2198,
+              "verified_unstable_cuts": 181,
+              "unknown_cuts": 12,
+              "resolved_all_cut_queries": 785
+            },
+            {
+              "stable_cuts": 2198,
+              "verified_unstable_cuts": 181,
+              "unknown_cuts": 12,
+              "resolved_all_cut_queries": 785
+            },
+            {
+              "stable_cuts": 2198,
+              "verified_unstable_cuts": 181,
+              "unknown_cuts": 12,
+              "resolved_all_cut_queries": 785
+            }
+          ],
+          "source_lift_statuses_by_block": [
+            {
+              "stable_cuts": 2191,
+              "verified_unstable_cuts": 181,
+              "unknown_cuts": 19,
+              "resolved_all_cut_queries": 778
+            },
+            {
+              "stable_cuts": 2191,
+              "verified_unstable_cuts": 181,
+              "unknown_cuts": 19,
+              "resolved_all_cut_queries": 778
+            },
+            {
+              "stable_cuts": 2191,
+              "verified_unstable_cuts": 181,
+              "unknown_cuts": 19,
+              "resolved_all_cut_queries": 778
+            }
+          ]
+        },
+        "3": {
+          "questions": 253,
+          "empty_stratum": false,
+          "primary_active_seconds": [
+            13.471514500051853,
+            13.139644099959696,
+            13.564052100045956
+          ],
+          "source_lift_active_seconds": [
+            28.638544799974625,
+            28.462162699976034,
+            30.016443099986645
+          ],
+          "raw_paired_ratios": [
+            2.1258593308023674,
+            2.1661288908170153,
+            2.2129407111231125
+          ],
+          "ratio_median": 2.1661288908170153,
+          "ratio_min": 2.1258593308023674,
+          "ratio_max": 2.2129407111231125,
+          "primary_statuses_by_block": [
+            {
+              "stable_cuts": 702,
+              "verified_unstable_cuts": 55,
+              "unknown_cuts": 2,
+              "resolved_all_cut_queries": 251
+            },
+            {
+              "stable_cuts": 702,
+              "verified_unstable_cuts": 55,
+              "unknown_cuts": 2,
+              "resolved_all_cut_queries": 251
+            },
+            {
+              "stable_cuts": 702,
+              "verified_unstable_cuts": 55,
+              "unknown_cuts": 2,
+              "resolved_all_cut_queries": 251
+            }
+          ],
+          "source_lift_statuses_by_block": [
+            {
+              "stable_cuts": 697,
+              "verified_unstable_cuts": 55,
+              "unknown_cuts": 7,
+              "resolved_all_cut_queries": 246
+            },
+            {
+              "stable_cuts": 697,
+              "verified_unstable_cuts": 55,
+              "unknown_cuts": 7,
+              "resolved_all_cut_queries": 246
+            },
+            {
+              "stable_cuts": 697,
+              "verified_unstable_cuts": 55,
+              "unknown_cuts": 7,
+              "resolved_all_cut_queries": 246
+            }
+          ]
+        },
+        "4": {
+          "questions": 607,
+          "empty_stratum": false,
+          "primary_active_seconds": [
+            50.71227000012368,
+            50.538317499864206,
+            52.464443499949994
+          ],
+          "source_lift_active_seconds": [
+            244.6214827998192,
+            244.80205390005358,
+            252.14591129996552
+          ],
+          "raw_paired_ratios": [
+            4.8237139216844875,
+            4.843890062242601,
+            4.806034229643661
+          ],
+          "ratio_median": 4.8237139216844875,
+          "ratio_min": 4.806034229643661,
+          "ratio_max": 4.843890062242601,
+          "primary_statuses_by_block": [
+            {
+              "stable_cuts": 1716,
+              "verified_unstable_cuts": 101,
+              "unknown_cuts": 4,
+              "resolved_all_cut_queries": 603
+            },
+            {
+              "stable_cuts": 1716,
+              "verified_unstable_cuts": 101,
+              "unknown_cuts": 4,
+              "resolved_all_cut_queries": 603
+            },
+            {
+              "stable_cuts": 1716,
+              "verified_unstable_cuts": 101,
+              "unknown_cuts": 4,
+              "resolved_all_cut_queries": 603
+            }
+          ],
+          "source_lift_statuses_by_block": [
+            {
+              "stable_cuts": 1706,
+              "verified_unstable_cuts": 101,
+              "unknown_cuts": 14,
+              "resolved_all_cut_queries": 593
+            },
+            {
+              "stable_cuts": 1706,
+              "verified_unstable_cuts": 101,
+              "unknown_cuts": 14,
+              "resolved_all_cut_queries": 593
+            },
+            {
+              "stable_cuts": 1706,
+              "verified_unstable_cuts": 101,
+              "unknown_cuts": 14,
+              "resolved_all_cut_queries": 593
+            }
+          ]
+        }
+      },
+      "description": "On MuSiQue, the observed median SourceLift/ViewRank active-cost ratio is nondecreasing across the observed source-count strata; it is 1.09 at $r=1$ and 4.82 at $r=4$."
+    }
+  },
+  "ratio_scope": "For each r and block, divide SourceLift summed active cost by primary summed active cost over the same original queries; then take the median of the three ratios.",
+  "startup_scope": "No startup/setup allocation. Every original query, including UNKNOWN, remains.",
+  "inference_scope": "Three repeated timing blocks are descriptive, not new independent questions. No monotonic trend is assumed.",
+  "input_scope": "Only final report.json; no trace, graph, NPZ or numerical backend access."
+}

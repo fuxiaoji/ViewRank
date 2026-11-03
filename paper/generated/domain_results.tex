@@ -1,0 +1,27 @@
+\subsection{Complete-workload operator comparison}
+\label{sec:domain-results}
+Table~\ref{tab:domain-main} reports the fixed workloads, including startup, method-owned setup, all query stages, and unresolved requests. Times and p95 values are medians of three complete blocks; coverage requires every requested cutoff resolved. All block values are retained in the artifact.
+\begin{table*}[t]\centering\small
+\caption{Complete policy-domain workloads at 16 MiB retained-state budget. Total seconds and p95 milliseconds are complete-block medians; resolved coverage requires all three cutoffs. DensePruned shares ViewRank\textquotesingle s polynomial certificate. The separated bottom panel is an independent paired cohort with the same compressed representation for both certificates. Compare costs within a panel; absolute times are not pooled across cohorts.}
+\label{tab:domain-main}
+\begin{tabular}{lrrrrrr}\toprule
+& \multicolumn{3}{c}{HotpotQA, 1,000 questions}&\multicolumn{3}{c}{MuSiQue, 2,417 questions}\\
+Method & Total (s)&Resolved (\%)&p95 (ms)&Total (s)&Resolved (\%)&p95 (ms)\\\midrule
+ViewRank--Sparse & 116.81 & 99.70 & 250.4 & 108.58 & 98.97 & 165.4\\
+ViewRank--DensePruned ($10^{-4}$) & 116.46 & 99.30 & 213.9 & 98.03 & 98.47 & 125.5\\
+ViewRank--DensePruned ($10^{-6}$) & 136.16 & 99.80 & 229.0 & 103.77 & 99.01 & 127.3\\
+Source lifting, full responses & 200.12 & 99.20 & 371.3 & 311.10 & 98.10 & 481.8\\
+Native rank-one + source lifting & 215.77 & 99.20 & 369.1 & 340.62 & 98.10 & 479.2\\
+\midrule
+\multicolumn{7}{l}{\emph{Separate paired cohort A: same compressed representation}}\\
+ViewRank--Sparse (paired A) & 129.00 & 99.70 & 276.4 & 113.24 & 98.97 & 178.8\\
+SourceLift, compressed (paired A) & 198.00 & 99.20 & 379.7 & 331.59 & 98.06 & 533.2\\
+\bottomrule\end{tabular}\end{table*}
+The strongest layout-matched comparison is cohort A. Both methods use sparse $L=512$ retention, 128 current-base preview coordinates, and atom tolerance $10^{-6}$; SourceLift receives subdivision depth four. ViewRank--Sparse lowers complete-workload cost in every paired block: 34.7--35.3\% on HotpotQA and 65.9--66.0\% on MuSiQue. All original requests and unresolved outcomes remain included.
+Complete-audit counts are 997 versus 992 on HotpotQA and 2392 versus 2370 on MuSiQue, identical across repetitions. Median all-question p95 values are 276.4 versus 379.7 ms and 178.8 versus 533.2 ms, respectively. The shared-domain certificate therefore improves complete cost, resolution and tail latency after matching compressed retention.
+The original main cohort also compares full-response source lifting: the primary reduces complete cost by 40.9--41.6\% on HotpotQA and 64.8--65.1\% on MuSiQue. The atom-free rank-one hybrid remains visible alongside it.
+The same certificate supports complementary physical layouts. Sparse retention reduces HotpotQA total cost by 14.2\% relative to same-tolerance DensePruned, while DensePruned gives lower total cost on MuSiQue. The fine full-response layout resolves one additional question on each dataset.
+\input{generated/domain_performance.tex}
+\IfFileExists{generated/domain_source_count.tex}{\input{generated/domain_source_count.tex}}{}
+% Remaining component controls, budgets and fresh-process memory come from their own complete cohorts.
+\IfFileExists{generated/domain_supplement_results.tex}{\input{generated/domain_supplement_results.tex}}{}

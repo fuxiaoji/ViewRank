@@ -1,0 +1,234 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-11-03T09:36:47.286180+00:00",
+  "scope": "Six complete witness-off certificate-capacity cohorts only; no numerical experiment or math replay.",
+  "physical_size_mm": [
+    183,
+    65
+  ],
+  "all_original_questions": {
+    "hotpot_pool7405": 1000,
+    "musique_pool2417": 2417
+  },
+  "values": [
+    {
+      "dataset": "hotpot_pool7405",
+      "method": "fine_preview",
+      "denominator": 1000,
+      "budgets_mib": [
+        1,
+        4,
+        16
+      ],
+      "all_cut_stable_questions": [
+        510,
+        905,
+        904
+      ],
+      "percent": [
+        51.0,
+        90.5,
+        90.4
+      ]
+    },
+    {
+      "dataset": "hotpot_pool7405",
+      "method": "lift_sparse_fine_preview",
+      "denominator": 1000,
+      "budgets_mib": [
+        1,
+        4,
+        16
+      ],
+      "all_cut_stable_questions": [
+        293,
+        900,
+        900
+      ],
+      "percent": [
+        29.3,
+        90.0,
+        90.0
+      ]
+    },
+    {
+      "dataset": "hotpot_pool7405",
+      "method": "dp_preview_fine",
+      "denominator": 1000,
+      "budgets_mib": [
+        1,
+        4,
+        16
+      ],
+      "all_cut_stable_questions": [
+        0,
+        491,
+        905
+      ],
+      "percent": [
+        0.0,
+        49.1,
+        90.5
+      ]
+    },
+    {
+      "dataset": "musique_pool2417",
+      "method": "fine_preview",
+      "denominator": 2417,
+      "budgets_mib": [
+        1,
+        4,
+        16
+      ],
+      "all_cut_stable_questions": [
+        1526,
+        2014,
+        2014
+      ],
+      "percent": [
+        63.136119155978484,
+        83.32643773272652,
+        83.32643773272652
+      ]
+    },
+    {
+      "dataset": "musique_pool2417",
+      "method": "lift_sparse_fine_preview",
+      "denominator": 2417,
+      "budgets_mib": [
+        1,
+        4,
+        16
+      ],
+      "all_cut_stable_questions": [
+        1296,
+        1993,
+        1993
+      ],
+      "percent": [
+        53.620190318576746,
+        82.4575920562681,
+        82.4575920562681
+      ]
+    },
+    {
+      "dataset": "musique_pool2417",
+      "method": "dp_preview_fine",
+      "denominator": 2417,
+      "budgets_mib": [
+        1,
+        4,
+        16
+      ],
+      "all_cut_stable_questions": [
+        1294,
+        2014,
+        2014
+      ],
+      "percent": [
+        53.53744311129499,
+        83.32643773272652,
+        83.32643773272652
+      ]
+    }
+  ],
+  "alignment": {
+    "verdict": "PASS",
+    "fail": 0,
+    "warn": 0
+  },
+  "font": {
+    "minimum_pt": 6.5,
+    "below5": 0
+  },
+  "collision": {
+    "verdict": "PASS",
+    "fail": 0,
+    "warn": 0
+  },
+  "source_preflight": {
+    "ready": true,
+    "strict": false,
+    "counts": {
+      "PASS": 20,
+      "WARN": 1,
+      "FAIL": 0
+    }
+  },
+  "visual_review": {
+    "verdict": "PASS",
+    "viewed": [
+      "domain_budget.png",
+      "domain_budget.pdf-preview.png"
+    ],
+    "physical_size_mm": [
+      183,
+      65
+    ],
+    "observations": "Both panels aligned, all text and markers visible, legend and axes readable, no text overlap or clipping. Zero-percent marker has lower-axis clearance.",
+    "preserved_nonmonotonicity": "HotpotQA VR-Sparse:905/1000 at4MiB,904/1000 at16MiB. No monotonic adjustment."
+  },
+  "independent_metadata_check": {
+    "verdict": "PASS",
+    "reviewer": "capacity_plan_review",
+    "observations": "All18 source CSV values and percentages agree with six frozen summaries; witness-off/U0/one-block/full populations/hash contracts pass."
+  },
+  "sourcecount_core_inclusion": {
+    "scripts/make_domain_source_count.py": {
+      "bytes": 10281,
+      "sha256": "71427f6986d3a5b2961cad0afb72a7a29e0cc23b7834f16ddaa1d8f27444f43a"
+    },
+    "paper/generated/domain_source_count.tex": {
+      "bytes": 1055,
+      "sha256": "29fe46027ed922eebac24adf66288eb0408855275dfdd05e443bd3f78842ba3d"
+    },
+    "paper/generated/domain_source_count_facts.json": {
+      "bytes": 20152,
+      "sha256": "76b3cf7e70f0a1c8854a23c2538249d378906fb7166913dbc3219d953642b08f"
+    }
+  },
+  "artifacts": {
+    "figures/domain_budget.pdf": {
+      "bytes": 42771,
+      "sha256": "4536bf1c5b7d7d8f3278937c8d3074d935cfde3b6189f95dcbcccbae3caf6214"
+    },
+    "figures/domain_budget.svg": {
+      "bytes": 19715,
+      "sha256": "c35db240f29bc1201429227d7a87745f2a422e6a8be62253f7f9609bdbbeefdb"
+    },
+    "figures/domain_budget.png": {
+      "bytes": 245707,
+      "sha256": "78042641995cbc6553f337e70ab44d8d60ab198021de486ad33686b8c0e32c72"
+    },
+    "figures/domain_budget.source.csv": {
+      "bytes": 5078,
+      "sha256": "4930bec904d6a93c80cb36ffaf699a12b387c9f22d1e6044b467d488b2481ad7"
+    },
+    "figures/domain_budget.caption.txt": {
+      "bytes": 566,
+      "sha256": "d8174cba5961df6b43ac2ade88feb853a2c5cd4e499960f8ca3f0c4ef2accf1e"
+    },
+    "figures/domain_budget.contract.json": {
+      "bytes": 53076,
+      "sha256": "9b46aa636529ae08c0ca90e8d34dc341688ade7fbba6f91dd6c79a7911208954"
+    },
+    "figures/domain_budget.alignment.json": {
+      "bytes": 1683,
+      "sha256": "1e1b9b43c3753e10fa37d850e5cdf87e27b1c2295a5a690a1032044253d1be99"
+    },
+    "figures/domain_budget.font-audit.json": {
+      "bytes": 247,
+      "sha256": "25dc2dbbd76576f465452f7cea77c294b724a31948253adb6ac113f123b670a1"
+    },
+    "figures/domain_budget.collision-audit.json": {
+      "bytes": 540,
+      "sha256": "b38007d7c7bcec1245054042f18ddde22c611f1e9b59de8d1f6b85f2254ba08b"
+    },
+    "figures/domain_budget.source-preflight.json": {
+      "bytes": 4066,
+      "sha256": "d4926d479863c9c1800fa21224216df05744318e50f7a6a80012f7d1c02b7286"
+    }
+  },
+  "proposed_caption": "Certificate capacity versus retained numerical-state admission budget. All original HotpotQA (n=1,000) and MuSiQue (n=2,417) questions and all three cutoffs are included. The numerator contains only questions whose every cutoff is STABLE; any UNKNOWN remains in the denominator. All three budgets use newly measured witness-off paired runs, one block per point, with no error bars. Curves retain the observed values without monotonic adjustment. Budget includes family work and is not process RSS. This capacity study is separate from three-state audit resolution.",
+  "artifact_build": "NOT_STARTED: await root final readiness; preliminary inventory confirms source-count inclusion."
+}

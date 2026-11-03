@@ -1,0 +1,19 @@
+{
+  "version": "column-visual-revision-v2",
+  "claim": "The source compiler and whole-output test reuse budgeted numerical responses.",
+  "type": "compact execution schematic",
+  "source": [
+    "paper/main.tex Sections II-V",
+    "src/retained_policy_family.py",
+    "src/policy_domain_execution.py"
+  ],
+  "backend": "Python/Matplotlib",
+  "final_width_mm": 89,
+  "selection": "Grounded modules; each cutoff has its own three-valued result.",
+  "statistics": "Three-block points are descriptive, not confidence intervals. Single-block panels have no error bars.",
+  "input_report_sha256": "6106e42605760002d62990d592a202011e86692b16190ee916352e3043a40ede",
+  "producer_script": "scripts/make_domain_column_figures.py",
+  "script_sha256": "004f059891f0d3fc171894e883c26429807176154248c9775b5a74e4dcba6df2",
+  "shared_graphics_helper_sha256": "015cc97f8ddd4be6cc9531fdaac42ced5848e6b9223a562213e416fe308f9216",
+  "budget": "Directory and admitted family-private numerical work share the same byte budget. Graph/backend are separate."
+}

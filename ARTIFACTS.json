@@ -1,0 +1,17 @@
+{
+  "release": "v4-submission",
+  "assets": [
+    {
+      "name": "ViewRank_data_v4.zip",
+      "bytes": 318844716,
+      "sha256": "973ee30cabcf04ba78cd0d7d86c100d3b654914a404ba5d14499b6be1235e3f6",
+      "url": "https://github.com/fuxiaoji/ViewRank/releases/download/v4-submission/ViewRank_data_v4.zip"
+    },
+    {
+      "name": "ViewRank_proofs.zip",
+      "bytes": 1029726897,
+      "sha256": "e60c6f0068dbc12e6b2d679d83e58442d2b4ca6b76d5ac7a5152cd16a83565d2",
+      "url": "https://github.com/fuxiaoji/ViewRank/releases/download/v4-submission/ViewRank_proofs.zip"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+BUDGET FIGURE QA PASS
+183 x65mm, Python/Matplotlib, six witness-off one-block cohorts only.
+Alignment PASS (0fail/0warn); PDF font minimum6.5pt; collision PASS (0fail/0warn); full PNG and PDF preview visually checked.
+Observed Hot Sparse905->904 is preserved without adjustment.
+Independent metadata reviewer matched all18 CSV rows to frozen summaries.
+Source-count script/TeX/facts JSON verified present in core inventory.
+No numeric source/wrapper/main edits; no PPR/benchmark; no final archive build.
+
+Counts, budgets1/4/16MiB:
+hotpot_pool7405 / fine_preview: [510, 905, 904] / denominator 1000
+hotpot_pool7405 / lift_sparse_fine_preview: [293, 900, 900] / denominator 1000
+hotpot_pool7405 / dp_preview_fine: [0, 491, 905] / denominator 1000
+musique_pool2417 / fine_preview: [1526, 2014, 2014] / denominator 2417
+musique_pool2417 / lift_sparse_fine_preview: [1296, 1993, 1993] / denominator 2417
+musique_pool2417 / dp_preview_fine: [1294, 2014, 2014] / denominator 2417
+
+CAPTION
+Certificate capacity versus retained numerical-state admission budget. All original HotpotQA (n=1,000) and MuSiQue (n=2,417) questions and all three cutoffs are included. The numerator contains only questions whose every cutoff is STABLE; any UNKNOWN remains in the denominator. All three budgets use newly measured witness-off paired runs, one block per point, with no error bars. Curves retain the observed values without monotonic adjustment. Budget includes family work and is not process RSS. This capacity study is separate from three-state audit resolution.

@@ -1,0 +1,57 @@
+% Standalone integration draft: place after the V4 prefix-corpus results in
+% Sec. Public Policy-Family Queries. Do not merge the V4 and V6 denominators.
+% Numeric sources: notes/recovered_evidence_review.md; v6_summary.json;
+% v6_independent/summary.json and final_numeric_acceptance_audit.json.
+\subsection{Complete retained-state experiment}\label{sec:v6complete}
+The full-corpus retained-state matrix complements the preceding
+prefix-corpus experiment. It evaluates 1,000 Hotpot and all 2,417 MuSiQue
+questions on the larger graphs described above. All 46 configurations
+complete three cold-state traces, retaining every source, strength and cutoff.
+The default uses $L=128$, atom tolerance $10^{-3}$, and common output-driven
+base and completion controls. Times cover the declared operator stages;
+offline corpus construction remains separate.
+
+At 4 MiB, exact interaction retention reduces complete operator time by
+35.8\%/41.1\% against matched NoCoreResidual on Hotpot/MuSiQue, respectively.
+Conditional completion saves 42.2\%/40.5\% against AlwaysFused.
+Residual-budgeted atom preparation saves 55.1\%/16.6\% against fine atoms,
+while output-driven base preparation saves 30.8\%/29.2\% against a fine base.
+These comparisons isolate multiple substantial gains in complete-task
+execution. Full-coordinate scans cost 40.690/24.802 s versus
+42.326/26.750 s, so sparse candidate execution does not independently
+improve complete time in this matrix.
+
+Table~\ref{tab:v6complete} compares the default with the strongest complete-trace
+baseline at every budget. The baseline minimizes the three-trace median over
+NativeGap, OffsetGap, OSPGap, and both matched-budget DenseAtomic precisions.
+Hotpot at 4 MiB saves 14.2\% in total time and lowers all-question p95 from
+72.762 to 61.981 ms. At 16 MiB, total reductions are 3.5\% and 0.7\%.
+MuSiQue's 1/4 MiB totals favor DenseAtomic; tails and observed process peaks
+also remain mixed. These results support the component gains without
+establishing uniform overall superiority.
+
+\begin{table}[t]\centering\small
+\setlength{\tabcolsep}{3.5pt}
+\caption{Full-corpus complete operator seconds: medians of all three cold-state traces.
+$\Delta$ is the percentage time reduction versus the strongest baseline;
+negative values favor the baseline. O is OffsetGap; D3/D4 are DenseAtomic
+at atom tolerances $10^{-3}/10^{-4}$.}\label{tab:v6complete}
+\begin{tabular}{lrrrl}\toprule
+Corpus / MiB & Stencil & Best & $\Delta$ (\%) & Control\\\midrule
+Hotpot / 1 & 52.810 & 49.313 & $-7.1$ & O\\
+Hotpot / 4 & 42.326 & 49.313 & 14.2 & O\\
+Hotpot / 16 & 38.092 & 39.464 & 3.5 & D3\\
+MuSiQue / 1 & 27.510 & 23.384 & $-17.6$ & D4\\
+MuSiQue / 4 & 26.750 & 24.073 & $-11.1$ & D3\\
+MuSiQue / 16 & 20.140 & 20.291 & 0.7 & D3\\\bottomrule
+\end{tabular}
+\end{table}
+
+Independent evaluation checks 2,829,276 explicit top-$k$ sets across all
+138 traces, finding no missing, invalid or unresolved outputs. All 84 literal
+differences from cold power-iteration references satisfy the fixed $10^{-12}$
+boundary contract. The 6,555 cuts without strict separation retain their
+numerical status. Their numerical-route views have persisted global
+score-error bounds at most $5\times10^{-13}$, consistent with that membership
+contract. These checks validate returned memberships and certificate flags;
+the reported coordinates remain approximate scores.

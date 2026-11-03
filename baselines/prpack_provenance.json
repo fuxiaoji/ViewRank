@@ -1,0 +1,16 @@
+{
+  "official_url": "https://github.com/dgleich/prpack",
+  "commit": "8462aa4161c8c1390455e48046f2ff52c9493cde",
+  "upstream_patch_sha256": "b351cd4bc26da3f64d1611d48e97a224c2df3d676abe03de369266efdaec8c1c",
+  "patch_scope": [
+    "declare unused file-parser fscanf result variable for MSVC compilation",
+    "friend access for adapter numeric SCC-cache refresh; author numerical kernels unchanged"
+  ],
+  "build": {
+    "generator": "Visual Studio 18 2026 x64",
+    "compiler": "MSVC 19.51.36256.0",
+    "config": "Release /O2 /EHsc",
+    "openmp": false,
+    "cmake": "4.4.2"
+  }
+}

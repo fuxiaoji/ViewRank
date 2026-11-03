@@ -1,0 +1,95 @@
+{
+  "status": "PASS",
+  "revision": "submission-v4",
+  "pdf_sha256": "dea02742ce9301de86b7ffb49f014e97487afc3bbefe8dbc71e8c661a3cabd96",
+  "total_pages": 13,
+  "body_ends_on_page": 12,
+  "no_appendix": true,
+  "figures": 9,
+  "tables": 9,
+  "references": 15,
+  "all_citations_defined": true,
+  "embedded_fonts": {
+    "IHAIZV+NimbusRomNo9L-Regu": {
+      "type": "Type1",
+      "embedded": true
+    },
+    "BZIVMZ+NimbusRomNo9L-MediItal": {
+      "type": "Type1",
+      "embedded": true
+    },
+    "IXFAWU+NimbusRomNo9L-Medi": {
+      "type": "Type1",
+      "embedded": true
+    },
+    "AKHCZK+NimbusRomNo9L-ReguItal": {
+      "type": "Type1",
+      "embedded": true
+    },
+    "CAFSZL+CMSY10": {
+      "type": "Type1",
+      "embedded": true
+    },
+    "YEUUOC+CMMI10": {
+      "type": "Type1",
+      "embedded": true
+    },
+    "VDVGTR+CMR10": {
+      "type": "Type1",
+      "embedded": true
+    },
+    "TQTHRL+StandardSymL": {
+      "type": "Type1",
+      "embedded": true
+    },
+    "FKPJSN+NimbusSanL-Regu": {
+      "type": "Type1",
+      "embedded": true
+    },
+    "ELUGPM+ArialMT": {
+      "type": "Type0",
+      "embedded": true
+    },
+    "ELUGPM+Arial-BoldMT": {
+      "type": "Type0",
+      "embedded": true
+    },
+    "GCWXDV+DejaVuSans-Oblique": {
+      "type": "Type0",
+      "embedded": true
+    },
+    "PVTTLK+CMEX10": {
+      "type": "Type1",
+      "embedded": true
+    },
+    "JAGKKY+MSAM10": {
+      "type": "Type1",
+      "embedded": true
+    },
+    "BMQQDV+DejaVuSans": {
+      "type": "Type0",
+      "embedded": true
+    },
+    "DDIEWW+rsfs10": {
+      "type": "Type1",
+      "embedded": true
+    },
+    "EUPODS+STIXNonUnicode-Italic": {
+      "type": "Type0",
+      "embedded": true
+    },
+    "NOMARO+NimbusMonL-Regu": {
+      "type": "Type1",
+      "embedded": true
+    }
+  },
+  "type3_fonts": false,
+  "off_page_spans": [],
+  "overfull_boxes": false,
+  "visual_review": "Current revised pages 10--13 inspected at full rendering; unchanged figure layouts preserved.",
+  "unchanged_numerical_source_files": 43,
+  "tables_and_saved_proofs": "PASS from extracted current public data/proof packs, final_quick_check/",
+  "amazon_raw_rebuild": "PASS exact graph/group equality in both variants",
+  "author_declarations": "All confirmed by author",
+  "actual_CMT_submission": false
+}

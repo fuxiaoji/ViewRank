@@ -1,0 +1,23 @@
+# Manuscript table and evidence map
+
+Run `python reproduce.py --download --quick` from the repository root. `--tables` reaggregates recorded outcomes and timings; fresh numerical execution is described in [EXPERIMENTS.md](EXPERIMENTS.md). Original frozen manifests identify every configuration, input/source hash, ordered query and method schedule.
+
+| Table | Inputs / records | Reproduction / check | Output |
+|---|---|---|---|
+| I: method roles | `paper/main.tex`; method configurations in the main and supplement job manifests | `reproduce.py --tables` extracts the declared qualitative contract; II/III checks validate the recorded method configurations | `tables/table_I_method_contract.txt` |
+| II: complete workload | `results/domain_main_v3/full_{hot,mu}_main_v3/`; `results/domain_supplement_v3/A_core_matched_{hot,mu}/` | `scripts/make_domain_results.py --root results/domain_main_v3 --matched-root results/domain_supplement_v3 --output NEW/domain_results.tex` | `domain_results.tex`, `domain_result_facts.json` |
+| III: matched mechanism controls | `results/domain_supplement_v3/evidence_summary_v3/report.json`, B cohorts; complete per-query ledgers in their cohort folders | `scripts/make_domain_supplement_results.py` via the entrypoint | `domain_supplement_results.tex` |
+| IV: fresh-process memory | same joined report, D cohorts, one method per fresh process | same reporting command; memory scope remains whole process | same TeX |
+| V: natural mechanism cases | `evidence/independent_natural_pair_check.json`; `evidence/natural_dependence_examples_v1.json`; original calibration/proof records | the entrypoint checks both displayed negative upper bounds against their saved exact rational bounds and writes case data | `table_V_exact_bounds.json` |
+| VI: shared verifier | `results/professor_revision_v1/shared_smt_dyadic_prefix20_5s/{protocol.json,rows.jsonl,complete.json}` | `scripts/report_professor_revision.py --tables-only --output NEW/extension.tex` | shared verifier table; all 120 cutoff times in `results/submission_details_v4/smt_all_120_cuts.csv` |
+| VII: alpha boundary | six complete first-100 cohorts in `results/professor_revision_v1/boundaries/` | same extension reporter | alpha table |
+| VIII: graph contexts | two small lexical cohorts and `amazon_r4_{original,self05}` in the same boundaries folder | same extension reporter | graph-context table |
+| IX: three-state outcomes | all ten complete cohorts × three method ledgers | `scripts/prepare_submission_details.py --tables-only --output NEW/details` | `tristates.csv`, `tristates.tex`, `unknown_cuts.csv`, `unknown_reasons.json` |
+
+The entrypoint compares regenerated table contents with the current manuscript and fails on a difference. Table I is a declared configuration contract, not an empirical aggregate. Table V checks archived exact evidence rather than claiming a new graph solve. Source-count strata (Figure 4 and text) are separately rebuilt by `scripts/make_domain_source_count.py` from the complete supplement report. Capacity (Figure 7) uses all six witness-free C cohorts; these counts do not pool with full-operator resolution.
+
+The shared SMT encoder constrains D and all 2r F variables to their exact monomial polynomials, then searches for nonpositive determinant or a failed guarded gap. A threshold variable avoids enumerating every selected/competitor pair. `SMT_SETTINGS.json` documents Z3 5.3.3, package 5.3.3.0, `SolverFor("QF_NRA")`, random seed 0, 5,000 ms per cutoff, and default logic-specific strategy. Named D/F and amplitude expressions are reused within a cutoff. The source polynomial compiler is common and excluded from both timers; complete encoding and a fresh solver are used at each cutoff. No cross-cutoff SMT reuse is claimed.
+
+`smt_encoding_counts.csv` supplies all 120 sizes; `example_hot_q0_k2.smt2` is exported using the immutable measured encoder, without re-solving. Original encoding/solve totals (Hot: 18.764745/309.101748 s; Mu: 8.111828/148.082108 s) come from original execution logs. SAT remains UNKNOWN; strict actual-policy witnesses are required for UNSTABLE.
+
+UNKNOWN diagnosis is per cutoff. Across the extension ledgers, 12 instances report insufficient candidate gap controls, 11 report unseparated source-relaxed gaps/tails, and 16 report budget fallback (8 per Amazon DP variant). Amazon DP needs eight n-vectors, totaling 21,431,232 bytes before additional metadata, beyond the 16 MiB admission budget; its dense route is automatically registered, makes zero atom misses and takes `budget_unknown`. Its actual-policy search subsequently resolves 16 cuts and leaves eight UNKNOWN. All outcomes, failed leaves and charged searches remain available.

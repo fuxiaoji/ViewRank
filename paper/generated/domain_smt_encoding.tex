@@ -1,0 +1,10 @@
+The encoding names $D$ and all $2r$ amplitudes $F_j$, constrained to their exact monomial polynomials. Let $N_i,T_i,E,O$ be the pointwise forms of Eq.~\eqref{eq:controls}, using $|F_j|$ instead of coefficient envelopes, with $\epsilon=0$ in both verifiers. Put $L_i=N_i-T_i-2E$ and $U_i=N_i+T_i$. Within the box and polynomial equalities it checks satisfiability of
+\begin{equation}
+\begin{aligned}
+ &(D\leq0)\ \lor\ \bigvee_{i\in T}(L_i\leq O)\\
+ &\quad\lor\ \exists z:\left(\bigvee_{i\in T}L_i\leq z\right)
+              \land\left(\bigvee_{j\in\mathcal C\setminus T}U_j\geq z\right).
+\end{aligned}
+\label{eq:smt-encoding}
+\end{equation}
+The threshold $z$ avoids enumerating $k(|\mathcal C|-k)$ pairs. There are $1+2r$ polynomial equalities, four box inequalities, $|\mathcal C|$ threshold inequalities and $k$ outside-gap inequalities, plus the determinant and amplitude sign tests. The 120 encodings have 597--1,967 candidates and 6,035--23,701 unique Z3 expression nodes. Each cutoff shares its named expressions internally but builds a fresh solver; there is no cross-cutoff encoding reuse. We use Z3 5.3.3 (package 5.3.3.0), \texttt{SolverFor(QF\_NRA)}, seed zero, and the logic-specific default strategy without a custom tactic. HotpotQA encoding/solve totals are 18.76/309.10\,s; MuSiQue totals are 8.11/148.08\,s. All cutoff times, constraint counts and an SMT-LIB export accompany the artifact.
